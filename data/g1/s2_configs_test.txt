@@ -1,0 +1,80 @@
+C1: mode=tunnel esp=aes128-sha256-modp2048 pfs=True
+gw-a ['successfully loaded 1 connections, 0 unloaded']
+gw-b ['successfully loaded 1 connections, 0 unloaded']
+initiate completed successfully
+2 packets transmitted, 2 received, 0% packet loss, time 1021ms
+dset: #13, ESTABLISHED, IKEv2, 4df52fa5906c72b9_i* 3011c7a91270e910_r
+  established 2s ago, rekeying in 13274s
+  c: #14, reqid 1, INSTALLED, TUNNEL, ESP:AES_CBC-128/HMAC_SHA2_256_128
+    installed 2s ago, rekeying in 36s, expires in 42s
+
+C2: mode=tunnel esp=aes256-sha256 pfs=False
+gw-a ['successfully loaded 1 connections, 0 unloaded']
+gw-b ['successfully loaded 1 connections, 0 unloaded']
+initiate completed successfully
+2 packets transmitted, 2 received, 0% packet loss, time 1008ms
+dset: #14, ESTABLISHED, IKEv2, 5fb7b2e55c2decec_i* 9a06df65c18a886d_r
+  established 2s ago, rekeying in 13657s
+  c: #15, reqid 1, INSTALLED, TUNNEL, ESP:AES_CBC-256/HMAC_SHA2_256_128
+    installed 2s ago, rekeying in 34s, expires in 42s
+
+C3: mode=tunnel esp=aes256gcm16-modp2048 pfs=True
+gw-a ['successfully loaded 1 connections, 0 unloaded']
+gw-b ['successfully loaded 1 connections, 0 unloaded']
+initiate completed successfully
+2 packets transmitted, 2 received, 0% packet loss, time 1003ms
+dset: #15, ESTABLISHED, IKEv2, d7b9c57078611699_i* 0903a1130273dce5_r
+  established 2s ago, rekeying in 13556s
+  c: #16, reqid 1, INSTALLED, TUNNEL, ESP:AES_GCM_16-256
+    installed 2s ago, rekeying in 36s, expires in 42s
+
+C4: mode=tunnel esp=aes128gcm16 pfs=False
+gw-a ['successfully loaded 1 connections, 0 unloaded']
+gw-b ['successfully loaded 1 connections, 0 unloaded']
+initiate completed successfully
+2 packets transmitted, 2 received, 0% packet loss, time 1005ms
+dset: #16, ESTABLISHED, IKEv2, b9ae49021d75614a_i* e6469453b5ce53e8_r
+  established 2s ago, rekeying in 13522s
+  c: #17, reqid 1, INSTALLED, TUNNEL, ESP:AES_GCM_16-128
+    installed 2s ago, rekeying in 35s, expires in 42s
+
+C5: mode=transport esp=aes128-sha256-modp2048 pfs=True
+gw-a ['successfully loaded 1 connections, 0 unloaded']
+gw-b ['successfully loaded 1 connections, 0 unloaded']
+initiate completed successfully
+2 packets transmitted, 2 received, 0% packet loss, time 1002ms
+dset: #17, ESTABLISHED, IKEv2, 0241641c493c396b_i* 6825334beace4181_r
+  established 1s ago, rekeying in 14280s
+  c: #18, reqid 1, INSTALLED, TRANSPORT, ESP:AES_CBC-128/HMAC_SHA2_256_128
+    installed 1s ago, rekeying in 36s, expires in 43s
+
+C6: mode=transport esp=aes256gcm16-modp2048 pfs=True
+gw-a ['successfully loaded 1 connections, 0 unloaded']
+gw-b ['successfully loaded 1 connections, 0 unloaded']
+initiate completed successfully
+2 packets transmitted, 2 received, 0% packet loss, time 1033ms
+dset: #18, ESTABLISHED, IKEv2, 1638ad19e7344641_i* 9da3c7092eb4240c_r
+  established 2s ago, rekeying in 13976s
+  c: #19, reqid 1, INSTALLED, TRANSPORT, ESP:AES_GCM_16-256
+    installed 2s ago, rekeying in 34s, expires in 42s
+
+C7: mode=transport esp=aes256-sha256 pfs=False
+gw-a ['successfully loaded 1 connections, 0 unloaded']
+gw-b ['successfully loaded 1 connections, 0 unloaded']
+initiate completed successfully
+2 packets transmitted, 2 received, 0% packet loss, time 1007ms
+dset: #19, ESTABLISHED, IKEv2, bd647cf0e98379e9_i* eb600998ca776f75_r
+  established 2s ago, rekeying in 12976s
+  c: #20, reqid 1, INSTALLED, TRANSPORT, ESP:AES_CBC-256/HMAC_SHA2_256_128
+    installed 2s ago, rekeying in 36s, expires in 42s
+
+C8: mode=transport esp=aes128gcm16 pfs=False
+gw-a ['successfully loaded 1 connections, 0 unloaded']
+gw-b ['successfully loaded 1 connections, 0 unloaded']
+initiate completed successfully
+2 packets transmitted, 2 received, 0% packet loss, time 1002ms
+dset: #20, ESTABLISHED, IKEv2, 0012047c7dd55c02_i* 8d193f816fae5571_r
+  established 2s ago, rekeying in 13566s
+  c: #21, reqid 1, INSTALLED, TRANSPORT, ESP:AES_GCM_16-128
+    installed 2s ago, rekeying in 36s, expires in 42s
+

@@ -1,0 +1,127 @@
+{
+ "overall": {
+  "n": 160,
+  "answered": 95,
+  "coverage": 0.594,
+  "acc_on_answered": 1.0,
+  "wrong": 0
+ },
+ "baseline_note": "two balanced classes: majority baseline is 0.5",
+ "by_config": {
+  "C1": {
+   "n": 20,
+   "answered": 12,
+   "coverage": 0.6,
+   "acc_on_answered": 1.0,
+   "wrong": 0
+  },
+  "C2": {
+   "n": 20,
+   "answered": 12,
+   "coverage": 0.6,
+   "acc_on_answered": 1.0,
+   "wrong": 0
+  },
+  "C3": {
+   "n": 20,
+   "answered": 12,
+   "coverage": 0.6,
+   "acc_on_answered": 1.0,
+   "wrong": 0
+  },
+  "C4": {
+   "n": 20,
+   "answered": 11,
+   "coverage": 0.55,
+   "acc_on_answered": 1.0,
+   "wrong": 0
+  },
+  "C5": {
+   "n": 20,
+   "answered": 12,
+   "coverage": 0.6,
+   "acc_on_answered": 1.0,
+   "wrong": 0
+  },
+  "C6": {
+   "n": 20,
+   "answered": 12,
+   "coverage": 0.6,
+   "acc_on_answered": 1.0,
+   "wrong": 0
+  },
+  "C7": {
+   "n": 20,
+   "answered": 12,
+   "coverage": 0.6,
+   "acc_on_answered": 1.0,
+   "wrong": 0
+  },
+  "C8": {
+   "n": 20,
+   "answered": 12,
+   "coverage": 0.6,
+   "acc_on_answered": 1.0,
+   "wrong": 0
+  }
+ },
+ "by_cipher_family": {
+  "CBC": {
+   "n": 80,
+   "answered": 48,
+   "coverage": 0.6,
+   "acc_on_answered": 1.0,
+   "wrong": 0
+  },
+  "GCM": {
+   "n": 80,
+   "answered": 47,
+   "coverage": 0.588,
+   "acc_on_answered": 1.0,
+   "wrong": 0
+  }
+ },
+ "by_true_traffic": {
+  "email": {
+   "n": 32,
+   "answered": 32,
+   "coverage": 1.0,
+   "acc_on_answered": 1.0,
+   "wrong": 0
+  },
+  "ping": {
+   "n": 32,
+   "answered": 0,
+   "coverage": 0.0,
+   "acc_on_answered": null,
+   "wrong": 0
+  },
+  "video": {
+   "n": 32,
+   "answered": 31,
+   "coverage": 0.969,
+   "acc_on_answered": 1.0,
+   "wrong": 0
+  },
+  "voip": {
+   "n": 32,
+   "answered": 0,
+   "coverage": 0.0,
+   "acc_on_answered": null,
+   "wrong": 0
+  },
+  "web": {
+   "n": 32,
+   "answered": 32,
+   "coverage": 1.0,
+   "acc_on_answered": 1.0,
+   "wrong": 0
+  }
+ },
+ "abstain_reasons": {
+  "no TCP anchor (traffic ping)": 32,
+  "no TCP anchor (traffic voip)": 32,
+  "cipher family ambiguous": 1
+ },
+ "family_stand_in_errors": 0
+}

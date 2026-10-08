@@ -1,0 +1,16 @@
+defaults:
+  ike: aes128-sha256-modp2048
+  dh: modp2048
+  child_rekey_a: 40s
+  child_rekey_b: 3600s
+configs:
+  C1: {mode: tunnel,    cipher: aes128-cbc, key_bits: 128, integrity: hmac-sha256, pfs: true,  esp_base: aes128-sha256}
+  C2: {mode: tunnel,    cipher: aes256-cbc, key_bits: 256, integrity: hmac-sha256, pfs: false, esp_base: aes256-sha256}
+  C3: {mode: tunnel,    cipher: aes256-gcm, key_bits: 256, integrity: aead,        pfs: true,  esp_base: aes256gcm16}
+  C4: {mode: tunnel,    cipher: aes128-gcm, key_bits: 128, integrity: aead,        pfs: false, esp_base: aes128gcm16}
+  C5: {mode: transport, cipher: aes128-cbc, key_bits: 128, integrity: hmac-sha256, pfs: true,  esp_base: aes128-sha256}
+  C6: {mode: transport, cipher: aes256-gcm, key_bits: 256, integrity: aead,        pfs: true,  esp_base: aes256gcm16}
+  C7: {mode: transport, cipher: aes256-cbc, key_bits: 256, integrity: hmac-sha256, pfs: false, esp_base: aes256-sha256}
+  C8: {mode: transport, cipher: aes128-gcm, key_bits: 128, integrity: aead,        pfs: false, esp_base: aes128gcm16}
+  W1: {mode: tunnel, cipher: 3des-cbc, key_bits: 168, integrity: hmac-sha1, pfs: false, esp_base: 3des-sha1, ike: 3des-sha1-modp1024, version: 1, aggressive: true, dh_group: 2, block: weak}
+  W2: {mode: tunnel, cipher: aes256-gcm, key_bits: 256, integrity: aead, pfs: true, esp_base: aes256gcm16, version: 2, dh_group: 14, block: weak}

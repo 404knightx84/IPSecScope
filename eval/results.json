@@ -1,0 +1,62 @@
+[
+ {
+  "check": "Parsing vs tshark/log/config",
+  "goal": "no check fails; skips listed",
+  "measured": "1358 pass, 0 fail, 0 skipped over 172 runs",
+  "pass": true
+ },
+ {
+  "check": "Cipher family: confidently wrong runs",
+  "goal": "0",
+  "measured": "0 of 160 base runs; wrong but flagged 4",
+  "pass": true
+ },
+ {
+  "check": "Mode: wrong answers (leave-one-config-out)",
+  "goal": "0 wrong",
+  "measured": "1.0 on 95/160 answered, coverage 0.594, baseline 0.5",
+  "pass": true
+ },
+ {
+  "check": "PFS: wrong answers (leave-one-config-out)",
+  "goal": "0 wrong",
+  "measured": "1.0 on 160/160 answered, coverage 1.0",
+  "pass": true
+ },
+ {
+  "check": "Traffic: held-out repeat 4 (run level)",
+  "goal": "report accuracy per mode",
+  "measured": "acc 1.0, macro F1 1.0, wrong runs 0",
+  "pass": null
+ },
+ {
+  "check": "Traffic: held-out repeat 4 (window level, all)",
+  "goal": "report accuracy per mode",
+  "measured": "acc 0.8652, macro F1 0.8671, n 957",
+  "pass": null
+ },
+ {
+  "check": "Traffic: held-out repeat 4 (window level, tunnel)",
+  "goal": "report accuracy per mode",
+  "measured": "acc 0.8574, macro F1 0.8593, n 477",
+  "pass": null
+ },
+ {
+  "check": "Traffic: held-out repeat 4 (window level, transport)",
+  "goal": "report accuracy per mode",
+  "measured": "acc 0.8729, macro F1 0.8748, n 480",
+  "pass": null
+ },
+ {
+  "check": "Severity floor W1",
+  "goal": "High or Critical",
+  "measured": "Counter({'Critical': 6}) over 6 runs",
+  "pass": true
+ },
+ {
+  "check": "Severity floor W2",
+  "goal": "Low",
+  "measured": "Counter({'Low': 6}) over 6 runs",
+  "pass": true
+ }
+]

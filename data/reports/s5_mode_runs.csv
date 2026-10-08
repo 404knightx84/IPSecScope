@@ -1,0 +1,161 @@
+run_id,config,truth,pred,why,traffic,pred_traffic,true_fam,fam_hat,anchor,answered,correct
+c1_email_r1,C1,tunnel,tunnel,ok,email,email,CBC,CBC,104,True,True
+c1_email_r2,C1,tunnel,tunnel,ok,email,email,CBC,CBC,104,True,True
+c1_email_r3,C1,tunnel,tunnel,ok,email,email,CBC,CBC,104,True,True
+c1_email_r4,C1,tunnel,tunnel,ok,email,email,CBC,CBC,104,True,True
+c1_ping_r1,C1,tunnel,,no TCP anchor (traffic ping),ping,ping,CBC,CBC,104,False,False
+c1_ping_r2,C1,tunnel,,no TCP anchor (traffic ping),ping,ping,CBC,CBC,104,False,False
+c1_ping_r3,C1,tunnel,,no TCP anchor (traffic ping),ping,ping,CBC,CBC,88,False,False
+c1_ping_r4,C1,tunnel,,no TCP anchor (traffic ping),ping,ping,CBC,CBC,136,False,False
+c1_video_r1,C1,tunnel,tunnel,ok,video,video,CBC,CBC,104,True,True
+c1_video_r2,C1,tunnel,tunnel,ok,video,video,CBC,CBC,104,True,True
+c1_video_r3,C1,tunnel,tunnel,ok,video,video,CBC,CBC,104,True,True
+c1_video_r4,C1,tunnel,tunnel,ok,video,video,CBC,CBC,104,True,True
+c1_voip_r1,C1,tunnel,,no TCP anchor (traffic voip),voip,voip,CBC,,200,False,False
+c1_voip_r2,C1,tunnel,,no TCP anchor (traffic voip),voip,voip,CBC,,152,False,False
+c1_voip_r3,C1,tunnel,,no TCP anchor (traffic voip),voip,voip,CBC,,200,False,False
+c1_voip_r4,C1,tunnel,,no TCP anchor (traffic voip),voip,voip,CBC,,200,False,False
+c1_web_r1,C1,tunnel,tunnel,ok,web,web,CBC,CBC,104,True,True
+c1_web_r2,C1,tunnel,tunnel,ok,web,web,CBC,CBC,104,True,True
+c1_web_r3,C1,tunnel,tunnel,ok,web,web,CBC,CBC,104,True,True
+c1_web_r4,C1,tunnel,tunnel,ok,web,web,CBC,CBC,104,True,True
+c2_email_r1,C2,tunnel,tunnel,ok,email,email,CBC,CBC,104,True,True
+c2_email_r2,C2,tunnel,tunnel,ok,email,email,CBC,CBC,104,True,True
+c2_email_r3,C2,tunnel,tunnel,ok,email,email,CBC,CBC,104,True,True
+c2_email_r4,C2,tunnel,tunnel,ok,email,email,CBC,CBC,104,True,True
+c2_ping_r1,C2,tunnel,,no TCP anchor (traffic ping),ping,ping,CBC,CBC,104,False,False
+c2_ping_r2,C2,tunnel,,no TCP anchor (traffic ping),ping,ping,CBC,CBC,104,False,False
+c2_ping_r3,C2,tunnel,,no TCP anchor (traffic ping),ping,ping,CBC,CBC,88,False,False
+c2_ping_r4,C2,tunnel,,no TCP anchor (traffic ping),ping,ping,CBC,CBC,136,False,False
+c2_video_r1,C2,tunnel,tunnel,ok,video,video,CBC,CBC,104,True,True
+c2_video_r2,C2,tunnel,tunnel,ok,video,video,CBC,CBC,104,True,True
+c2_video_r3,C2,tunnel,tunnel,ok,video,video,CBC,CBC,104,True,True
+c2_video_r4,C2,tunnel,tunnel,ok,video,video,CBC,CBC,104,True,True
+c2_voip_r1,C2,tunnel,,no TCP anchor (traffic voip),voip,voip,CBC,,200,False,False
+c2_voip_r2,C2,tunnel,,no TCP anchor (traffic voip),voip,voip,CBC,,152,False,False
+c2_voip_r3,C2,tunnel,,no TCP anchor (traffic voip),voip,voip,CBC,,200,False,False
+c2_voip_r4,C2,tunnel,,no TCP anchor (traffic voip),voip,voip,CBC,,200,False,False
+c2_web_r1,C2,tunnel,tunnel,ok,web,web,CBC,CBC,104,True,True
+c2_web_r2,C2,tunnel,tunnel,ok,web,web,CBC,CBC,104,True,True
+c2_web_r3,C2,tunnel,tunnel,ok,web,web,CBC,CBC,104,True,True
+c2_web_r4,C2,tunnel,tunnel,ok,web,web,CBC,CBC,104,True,True
+c3_email_r1,C3,tunnel,tunnel,ok,email,email,GCM,GCM,88,True,True
+c3_email_r2,C3,tunnel,tunnel,ok,email,email,GCM,GCM,88,True,True
+c3_email_r3,C3,tunnel,tunnel,ok,email,email,GCM,GCM,88,True,True
+c3_email_r4,C3,tunnel,tunnel,ok,email,email,GCM,GCM,88,True,True
+c3_ping_r1,C3,tunnel,,no TCP anchor (traffic ping),ping,ping,GCM,GCM,120,False,False
+c3_ping_r2,C3,tunnel,,no TCP anchor (traffic ping),ping,ping,GCM,GCM,192,False,False
+c3_ping_r3,C3,tunnel,,no TCP anchor (traffic ping),ping,ping,GCM,GCM,72,False,False
+c3_ping_r4,C3,tunnel,,no TCP anchor (traffic ping),ping,ping,GCM,GCM,316,False,False
+c3_video_r1,C3,tunnel,tunnel,ok,video,video,GCM,GCM,88,True,True
+c3_video_r2,C3,tunnel,tunnel,ok,video,video,GCM,GCM,88,True,True
+c3_video_r3,C3,tunnel,tunnel,ok,video,video,GCM,GCM,88,True,True
+c3_video_r4,C3,tunnel,tunnel,ok,video,video,GCM,GCM,88,True,True
+c3_voip_r1,C3,tunnel,,no TCP anchor (traffic voip),voip,voip,GCM,,184,False,False
+c3_voip_r2,C3,tunnel,,no TCP anchor (traffic voip),voip,voip,GCM,GCM,144,False,False
+c3_voip_r3,C3,tunnel,,no TCP anchor (traffic voip),voip,voip,GCM,,184,False,False
+c3_voip_r4,C3,tunnel,,no TCP anchor (traffic voip),voip,voip,GCM,,184,False,False
+c3_web_r1,C3,tunnel,tunnel,ok,web,web,GCM,GCM,88,True,True
+c3_web_r2,C3,tunnel,tunnel,ok,web,web,GCM,GCM,88,True,True
+c3_web_r3,C3,tunnel,tunnel,ok,web,web,GCM,GCM,88,True,True
+c3_web_r4,C3,tunnel,tunnel,ok,web,web,GCM,GCM,88,True,True
+c4_email_r1,C4,tunnel,tunnel,ok,email,email,GCM,GCM,88,True,True
+c4_email_r2,C4,tunnel,tunnel,ok,email,email,GCM,GCM,88,True,True
+c4_email_r3,C4,tunnel,tunnel,ok,email,email,GCM,GCM,88,True,True
+c4_email_r4,C4,tunnel,tunnel,ok,email,email,GCM,GCM,88,True,True
+c4_ping_r1,C4,tunnel,,no TCP anchor (traffic ping),ping,ping,GCM,GCM,120,False,False
+c4_ping_r2,C4,tunnel,,no TCP anchor (traffic ping),ping,ping,GCM,GCM,192,False,False
+c4_ping_r3,C4,tunnel,,no TCP anchor (traffic ping),ping,ping,GCM,GCM,72,False,False
+c4_ping_r4,C4,tunnel,,no TCP anchor (traffic ping),ping,ping,GCM,GCM,316,False,False
+c4_video_r1,C4,tunnel,,cipher family ambiguous,video,video,GCM,,88,False,False
+c4_video_r2,C4,tunnel,tunnel,ok,video,video,GCM,GCM,88,True,True
+c4_video_r3,C4,tunnel,tunnel,ok,video,video,GCM,GCM,88,True,True
+c4_video_r4,C4,tunnel,tunnel,ok,video,video,GCM,GCM,88,True,True
+c4_voip_r1,C4,tunnel,,no TCP anchor (traffic voip),voip,voip,GCM,,184,False,False
+c4_voip_r2,C4,tunnel,,no TCP anchor (traffic voip),voip,voip,GCM,GCM,144,False,False
+c4_voip_r3,C4,tunnel,,no TCP anchor (traffic voip),voip,voip,GCM,,184,False,False
+c4_voip_r4,C4,tunnel,,no TCP anchor (traffic voip),voip,voip,GCM,,184,False,False
+c4_web_r1,C4,tunnel,tunnel,ok,web,web,GCM,GCM,88,True,True
+c4_web_r2,C4,tunnel,tunnel,ok,web,web,GCM,GCM,88,True,True
+c4_web_r3,C4,tunnel,tunnel,ok,web,web,GCM,GCM,88,True,True
+c4_web_r4,C4,tunnel,tunnel,ok,web,web,GCM,GCM,88,True,True
+c5_email_r1,C5,transport,transport,ok,email,email,CBC,CBC,88,True,True
+c5_email_r2,C5,transport,transport,ok,email,email,CBC,CBC,88,True,True
+c5_email_r3,C5,transport,transport,ok,email,email,CBC,CBC,88,True,True
+c5_email_r4,C5,transport,transport,ok,email,email,CBC,CBC,88,True,True
+c5_ping_r1,C5,transport,,no TCP anchor (traffic ping),ping,ping,CBC,CBC,120,False,False
+c5_ping_r2,C5,transport,,no TCP anchor (traffic ping),ping,ping,CBC,CBC,120,False,False
+c5_ping_r3,C5,transport,,no TCP anchor (traffic ping),ping,ping,CBC,CBC,72,False,False
+c5_ping_r4,C5,transport,,no TCP anchor (traffic ping),ping,ping,CBC,CBC,88,False,False
+c5_video_r1,C5,transport,transport,ok,video,video,CBC,CBC,88,True,True
+c5_video_r2,C5,transport,transport,ok,video,video,CBC,CBC,88,True,True
+c5_video_r3,C5,transport,transport,ok,video,video,CBC,CBC,88,True,True
+c5_video_r4,C5,transport,transport,ok,video,video,CBC,CBC,88,True,True
+c5_voip_r1,C5,transport,,no TCP anchor (traffic voip),voip,voip,CBC,,184,False,False
+c5_voip_r2,C5,transport,,no TCP anchor (traffic voip),voip,voip,CBC,,136,False,False
+c5_voip_r3,C5,transport,,no TCP anchor (traffic voip),voip,voip,CBC,,184,False,False
+c5_voip_r4,C5,transport,,no TCP anchor (traffic voip),voip,voip,CBC,,184,False,False
+c5_web_r1,C5,transport,transport,ok,web,web,CBC,CBC,88,True,True
+c5_web_r2,C5,transport,transport,ok,web,web,CBC,CBC,88,True,True
+c5_web_r3,C5,transport,transport,ok,web,web,CBC,CBC,88,True,True
+c5_web_r4,C5,transport,transport,ok,web,web,CBC,CBC,88,True,True
+c6_email_r1,C6,transport,transport,ok,email,email,GCM,GCM,68,True,True
+c6_email_r2,C6,transport,transport,ok,email,email,GCM,GCM,68,True,True
+c6_email_r3,C6,transport,transport,ok,email,email,GCM,GCM,68,True,True
+c6_email_r4,C6,transport,transport,ok,email,email,GCM,GCM,68,True,True
+c6_ping_r1,C6,transport,,no TCP anchor (traffic ping),ping,ping,GCM,GCM,100,False,False
+c6_ping_r2,C6,transport,,no TCP anchor (traffic ping),ping,ping,GCM,GCM,172,False,False
+c6_ping_r3,C6,transport,,no TCP anchor (traffic ping),ping,ping,GCM,GCM,52,False,False
+c6_ping_r4,C6,transport,,no TCP anchor (traffic ping),ping,ping,GCM,GCM,100,False,False
+c6_video_r1,C6,transport,transport,ok,video,video,GCM,GCM,68,True,True
+c6_video_r2,C6,transport,transport,ok,video,video,GCM,GCM,68,True,True
+c6_video_r3,C6,transport,transport,ok,video,video,GCM,GCM,68,True,True
+c6_video_r4,C6,transport,transport,ok,video,video,GCM,GCM,68,True,True
+c6_voip_r1,C6,transport,,no TCP anchor (traffic voip),voip,voip,GCM,GCM,164,False,False
+c6_voip_r2,C6,transport,,no TCP anchor (traffic voip),voip,voip,GCM,GCM,124,False,False
+c6_voip_r3,C6,transport,,no TCP anchor (traffic voip),voip,voip,GCM,GCM,164,False,False
+c6_voip_r4,C6,transport,,no TCP anchor (traffic voip),voip,voip,GCM,GCM,164,False,False
+c6_web_r1,C6,transport,transport,ok,web,web,GCM,GCM,68,True,True
+c6_web_r2,C6,transport,transport,ok,web,web,GCM,GCM,68,True,True
+c6_web_r3,C6,transport,transport,ok,web,web,GCM,GCM,68,True,True
+c6_web_r4,C6,transport,transport,ok,web,web,GCM,GCM,68,True,True
+c7_email_r1,C7,transport,transport,ok,email,email,CBC,CBC,88,True,True
+c7_email_r2,C7,transport,transport,ok,email,email,CBC,CBC,88,True,True
+c7_email_r3,C7,transport,transport,ok,email,email,CBC,CBC,88,True,True
+c7_email_r4,C7,transport,transport,ok,email,email,CBC,CBC,88,True,True
+c7_ping_r1,C7,transport,,no TCP anchor (traffic ping),ping,ping,CBC,CBC,120,False,False
+c7_ping_r2,C7,transport,,no TCP anchor (traffic ping),ping,ping,CBC,CBC,88,False,False
+c7_ping_r3,C7,transport,,no TCP anchor (traffic ping),ping,ping,CBC,CBC,72,False,False
+c7_ping_r4,C7,transport,,no TCP anchor (traffic ping),ping,ping,CBC,CBC,120,False,False
+c7_video_r1,C7,transport,transport,ok,video,video,CBC,CBC,88,True,True
+c7_video_r2,C7,transport,transport,ok,video,video,CBC,CBC,88,True,True
+c7_video_r3,C7,transport,transport,ok,video,video,CBC,CBC,88,True,True
+c7_video_r4,C7,transport,transport,ok,video,video,CBC,CBC,88,True,True
+c7_voip_r1,C7,transport,,no TCP anchor (traffic voip),voip,voip,CBC,,184,False,False
+c7_voip_r2,C7,transport,,no TCP anchor (traffic voip),voip,voip,CBC,,136,False,False
+c7_voip_r3,C7,transport,,no TCP anchor (traffic voip),voip,voip,CBC,,184,False,False
+c7_voip_r4,C7,transport,,no TCP anchor (traffic voip),voip,voip,CBC,,184,False,False
+c7_web_r1,C7,transport,transport,ok,web,web,CBC,CBC,88,True,True
+c7_web_r2,C7,transport,transport,ok,web,web,CBC,CBC,88,True,True
+c7_web_r3,C7,transport,transport,ok,web,web,CBC,CBC,88,True,True
+c7_web_r4,C7,transport,transport,ok,web,web,CBC,CBC,88,True,True
+c8_email_r1,C8,transport,transport,ok,email,email,GCM,GCM,68,True,True
+c8_email_r2,C8,transport,transport,ok,email,email,GCM,GCM,68,True,True
+c8_email_r3,C8,transport,transport,ok,email,email,GCM,GCM,68,True,True
+c8_email_r4,C8,transport,transport,ok,email,email,GCM,GCM,68,True,True
+c8_ping_r1,C8,transport,,no TCP anchor (traffic ping),ping,ping,GCM,GCM,372,False,False
+c8_ping_r2,C8,transport,,no TCP anchor (traffic ping),ping,ping,GCM,GCM,172,False,False
+c8_ping_r3,C8,transport,,no TCP anchor (traffic ping),ping,ping,GCM,GCM,52,False,False
+c8_ping_r4,C8,transport,,no TCP anchor (traffic ping),ping,ping,GCM,GCM,100,False,False
+c8_video_r1,C8,transport,transport,ok,video,video,GCM,GCM,68,True,True
+c8_video_r2,C8,transport,transport,ok,video,video,GCM,GCM,68,True,True
+c8_video_r3,C8,transport,transport,ok,video,video,GCM,GCM,68,True,True
+c8_video_r4,C8,transport,transport,ok,video,video,GCM,GCM,68,True,True
+c8_voip_r1,C8,transport,,no TCP anchor (traffic voip),voip,voip,GCM,GCM,164,False,False
+c8_voip_r2,C8,transport,,no TCP anchor (traffic voip),voip,voip,GCM,GCM,124,False,False
+c8_voip_r3,C8,transport,,no TCP anchor (traffic voip),voip,voip,GCM,GCM,164,False,False
+c8_voip_r4,C8,transport,,no TCP anchor (traffic voip),voip,voip,GCM,GCM,164,False,False
+c8_web_r1,C8,transport,transport,ok,web,web,GCM,GCM,68,True,True
+c8_web_r2,C8,transport,transport,ok,web,web,GCM,GCM,68,True,True
+c8_web_r3,C8,transport,transport,ok,web,web,GCM,GCM,68,True,True
+c8_web_r4,C8,transport,transport,ok,web,web,GCM,GCM,68,True,True

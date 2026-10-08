@@ -1,0 +1,51 @@
+services:
+  host-a:
+    image: ipsec-node
+    container_name: host-a
+    cap_add: [NET_ADMIN]
+    networks:
+      lan-a:
+        ipv4_address: 10.0.1.10
+  gw-a:
+    image: ipsec-node
+    container_name: gw-a
+    cap_add: [NET_ADMIN]
+    sysctls:
+      - net.ipv4.ip_forward=1
+    volumes:
+      - ./gw-a.conf:/etc/swanctl/swanctl.conf:ro
+    networks:
+      lan-a:
+        ipv4_address: 10.0.1.2
+      wan:
+        ipv4_address: 10.0.0.2
+  gw-b:
+    image: ipsec-node
+    container_name: gw-b
+    cap_add: [NET_ADMIN]
+    sysctls:
+      - net.ipv4.ip_forward=1
+    volumes:
+      - ./gw-b.conf:/etc/swanctl/swanctl.conf:ro
+    networks:
+      wan:
+        ipv4_address: 10.0.0.3
+      lan-b:
+        ipv4_address: 10.0.2.2
+  host-b:
+    image: ipsec-node
+    container_name: host-b
+    cap_add: [NET_ADMIN]
+    networks:
+      lan-b:
+        ipv4_address: 10.0.2.10
+networks:
+  lan-a:
+    ipam:
+      config: [{subnet: 10.0.1.0/24}]
+  wan:
+    ipam:
+      config: [{subnet: 10.0.0.0/24}]
+  lan-b:
+    ipam:
+      config: [{subnet: 10.0.2.0/24}]

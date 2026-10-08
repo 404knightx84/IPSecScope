@@ -1,0 +1,30 @@
+connections {
+  dset {
+    version = {{ version }}
+{% if aggressive %}    aggressive = yes
+{% endif %}    local_addrs = {{ local_ip }}
+    remote_addrs = {{ remote_ip }}
+    proposals = {{ ike }}
+    rekey_time = {{ ike_rekey }}
+    local  { auth = psk
+             id = {{ local_id }} }
+    remote { auth = psk
+             id = {{ remote_id }} }
+    children {
+      c {
+        local_ts  = {{ local_ip }}/32
+        remote_ts = {{ remote_ip }}/32
+        mode = {{ mode }}
+        esp_proposals = {{ esp }}
+        rekey_time = {{ child_rekey }}
+      }
+    }
+  }
+}
+secrets {
+  ike-1 {
+    id-1 = gw-a
+    id-2 = gw-b
+    secret = "labpsk-change-me"
+  }
+}

@@ -1,0 +1,7136 @@
+{
+ "c1_email_r1": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "12013 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c1_email_r2": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "21797 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c1_email_r3": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "15253 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c1_email_r4": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "22316 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c1_ping_r1": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "226 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c1_ping_r2": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "214 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c1_ping_r3": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "208 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c1_ping_r4": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "256 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c1_video_r1": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "35862 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c1_video_r2": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "14179 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c1_video_r3": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "25321 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c1_video_r4": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "35066 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c1_voip_r1": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "12020 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c1_voip_r2": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "12022 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c1_voip_r3": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "11829 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c1_voip_r4": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "11945 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c1_web_r1": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "27216 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c1_web_r2": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "31840 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c1_web_r3": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "20239 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c1_web_r4": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "29549 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c2_email_r1": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "12091 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c2_email_r2": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "21523 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c2_email_r3": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "15147 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c2_email_r4": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "22296 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c2_ping_r1": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "238 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c2_ping_r2": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "212 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c2_ping_r3": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "222 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c2_ping_r4": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "239 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c2_video_r1": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "40160 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c2_video_r2": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "16959 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c2_video_r3": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "26396 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c2_video_r4": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "34553 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c2_voip_r1": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "12020 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c2_voip_r2": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "12021 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c2_voip_r3": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "11858 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c2_voip_r4": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "11934 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c2_web_r1": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "44783 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c2_web_r2": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "34657 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c2_web_r3": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "23917 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c2_web_r4": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "25820 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c3_email_r1": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "11870 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c3_email_r2": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "21545 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c3_email_r3": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "15301 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c3_email_r4": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "22312 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c3_ping_r1": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "212 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c3_ping_r2": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "234 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c3_ping_r3": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "233 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c3_ping_r4": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "222 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c3_video_r1": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "41582 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c3_video_r2": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "16959 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c3_video_r3": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "26326 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c3_video_r4": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "35143 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c3_voip_r1": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "12020 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c3_voip_r2": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "12021 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c3_voip_r3": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "11855 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c3_voip_r4": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "11935 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c3_web_r1": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "46169 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c3_web_r2": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "39893 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c3_web_r3": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "23070 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c3_web_r4": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "26444 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c4_email_r1": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "12281 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c4_email_r2": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "22847 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c4_email_r3": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "15484 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c4_email_r4": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "22190 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c4_ping_r1": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "216 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c4_ping_r2": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "278 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c4_ping_r3": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "247 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c4_ping_r4": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "218 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c4_video_r1": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "47445 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c4_video_r2": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "15462 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c4_video_r3": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "26479 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c4_video_r4": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "35819 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c4_voip_r1": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "12020 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c4_voip_r2": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "12022 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c4_voip_r3": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "11835 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c4_voip_r4": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "11946 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c4_web_r1": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "31966 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c4_web_r2": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "39595 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c4_web_r3": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "26750 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c4_web_r4": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "24211 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c5_email_r1": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "11775 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c5_email_r2": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "21672 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c5_email_r3": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "14948 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c5_email_r4": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "22089 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c5_ping_r1": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "220 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c5_ping_r2": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "260 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c5_ping_r3": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "248 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c5_ping_r4": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "196 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c5_video_r1": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "47497 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c5_video_r2": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "16592 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c5_video_r3": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "27135 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c5_video_r4": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "33701 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c5_voip_r1": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "12020 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c5_voip_r2": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "12022 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c5_voip_r3": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "11849 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c5_voip_r4": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "11930 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c5_web_r1": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "57551 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c5_web_r2": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "36900 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c5_web_r3": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "19744 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c5_web_r4": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "32362 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 7} / mine {34: 2, 35: 2, 36: 6, 37: 7}"
+  }
+ ],
+ "c6_email_r1": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "12299 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c6_email_r2": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "20980 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c6_email_r3": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "16552 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c6_email_r4": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "22106 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c6_ping_r1": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "202 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c6_ping_r2": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "276 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c6_ping_r3": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "242 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c6_ping_r4": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "201 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c6_video_r1": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "36926 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c6_video_r2": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "14890 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c6_video_r3": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "28743 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c6_video_r4": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "33492 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c6_voip_r1": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "12020 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c6_voip_r2": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "12022 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c6_voip_r3": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "11860 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c6_voip_r4": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "11940 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c6_web_r1": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "29589 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c6_web_r2": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "32571 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c6_web_r3": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "21112 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c6_web_r4": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "32493 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c7_email_r1": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "11927 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c7_email_r2": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "19648 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c7_email_r3": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "14793 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c7_email_r4": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "21836 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c7_ping_r1": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "222 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c7_ping_r2": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "210 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c7_ping_r3": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "214 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c7_ping_r4": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "238 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c7_video_r1": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "36708 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c7_video_r2": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "16122 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c7_video_r3": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "27065 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c7_video_r4": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "34210 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c7_voip_r1": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "12020 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c7_voip_r2": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "12022 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c7_voip_r3": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "11836 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c7_voip_r4": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "11942 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c7_web_r1": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "34139 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c7_web_r2": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "30564 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c7_web_r3": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "15777 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 7, 37: 6} / mine {34: 2, 35: 2, 36: 7, 37: 6}"
+  }
+ ],
+ "c7_web_r4": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "29077 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c8_email_r1": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "12650 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c8_email_r2": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "21351 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c8_email_r3": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "16588 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c8_email_r4": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "22123 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c8_ping_r1": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "262 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c8_ping_r2": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "250 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c8_ping_r3": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "240 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c8_ping_r4": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "204 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c8_video_r1": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "40211 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c8_video_r2": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "15267 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c8_video_r3": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "25100 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c8_video_r4": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "36762 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c8_voip_r1": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "12020 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c8_voip_r2": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "12022 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c8_voip_r3": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "11866 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c8_voip_r4": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "11930 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c8_web_r1": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "55994 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c8_web_r2": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "31069 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c8_web_r3": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "21382 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "c8_web_r4": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "26489 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "w1_ping_r1": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "236 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 1 / label 1"
+  },
+  {
+   "check": "aggressive_flag",
+   "status": "PASS",
+   "detail": "aggressive=True"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {4: 3, 5: 3, 32: 12} / mine {4: 3, 5: 3, 32: 12}"
+  }
+ ],
+ "w1_ping_r2": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "238 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 1 / label 1"
+  },
+  {
+   "check": "aggressive_flag",
+   "status": "PASS",
+   "detail": "aggressive=True"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {4: 3, 5: 3, 32: 12} / mine {4: 3, 5: 3, 32: 12}"
+  }
+ ],
+ "w1_voip_r1": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "12022 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 1 / label 1"
+  },
+  {
+   "check": "aggressive_flag",
+   "status": "PASS",
+   "detail": "aggressive=True"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {4: 3, 5: 3, 32: 13} / mine {4: 3, 5: 3, 32: 13}"
+  }
+ ],
+ "w1_voip_r2": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "12024 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 1 / label 1"
+  },
+  {
+   "check": "aggressive_flag",
+   "status": "PASS",
+   "detail": "aggressive=True"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {4: 3, 5: 3, 32: 13} / mine {4: 3, 5: 3, 32: 13}"
+  }
+ ],
+ "w1_web_r1": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "32370 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 1 / label 1"
+  },
+  {
+   "check": "aggressive_flag",
+   "status": "PASS",
+   "detail": "aggressive=True"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {4: 3, 5: 3, 32: 12} / mine {4: 3, 5: 3, 32: 12}"
+  }
+ ],
+ "w1_web_r2": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "31558 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 1 / label 1"
+  },
+  {
+   "check": "aggressive_flag",
+   "status": "PASS",
+   "detail": "aggressive=True"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {4: 3, 5: 3, 32: 13} / mine {4: 3, 5: 3, 32: 13}"
+  }
+ ],
+ "w2_ping_r1": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "202 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "w2_ping_r2": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "254 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "w2_voip_r1": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "12020 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "w2_voip_r2": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "12021 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "w2_web_r1": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "47919 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ],
+ "w2_web_r2": [
+  {
+   "check": "parse",
+   "status": "PASS",
+   "detail": "39910 packets, 1 IKE SA, 8 ESP flows"
+  },
+  {
+   "check": "one_ike_sa",
+   "status": "PASS",
+   "detail": "1 sessions"
+  },
+  {
+   "check": "ike_version",
+   "status": "PASS",
+   "detail": "pcap 2 / label 2"
+  },
+  {
+   "check": "dh_group",
+   "status": "PASS",
+   "detail": "pcap 14 / label 14"
+  },
+  {
+   "check": "rekey_types",
+   "status": "PASS",
+   "detail": "pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+  },
+  {
+   "check": "rekey_times",
+   "status": "PASS",
+   "detail": "max diff 0.0s"
+  },
+  {
+   "check": "rekeys_vs_log",
+   "status": "PASS",
+   "detail": "pcap child/ike 3/0 / log 3/0"
+  },
+  {
+   "check": "tshark_exchange_types",
+   "status": "PASS",
+   "detail": "tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+  }
+ ]
+}

@@ -1,0 +1,63 @@
+=== gcm_transport
+successfully loaded 1 connections, 0 unloaded
+successfully loaded 1 connections, 0 unloaded
+initiate completed successfully
+g1: #7, ESTABLISHED, IKEv2, 026cda076a54ac77_i* 54e86e319e58c7f5_r
+  c: #6, reqid 1, INSTALLED, TRANSPORT, ESP:AES_GCM_16-256
+tcpdump: listening on br-dd92a87deb66, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+48 packets captured
+48 packets received by filter
+0 packets dropped by kernel
+--- count  L  L%4  (L-40)%16
+      6 52 0 12
+      6 64 0 8
+      6 100 0 12
+      6 144 0 8
+      6 244 0 12
+      6 544 0 8
+      6 1044 0 12
+      6 1444 0 12
+--- UDP port of ESP packets (blank = raw ESP)
+     48 
+=== gcm_tunnel
+successfully loaded 1 connections, 0 unloaded
+successfully loaded 1 connections, 0 unloaded
+initiate completed successfully
+g1: #8, ESTABLISHED, IKEv2, 94bded25d448a53c_i* 5597f57080e450fe_r
+  c: #7, reqid 1, INSTALLED, TUNNEL, ESP:AES_GCM_16-256
+tcpdump: listening on br-dd92a87deb66, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+48 packets captured
+48 packets received by filter
+0 packets dropped by kernel
+--- count  L  L%4  (L-40)%16
+      6 72 0 0
+      6 84 0 12
+      6 120 0 0
+      6 164 0 12
+      6 264 0 0
+      6 564 0 12
+      6 1064 0 0
+      6 1464 0 0
+--- UDP port of ESP packets (blank = raw ESP)
+     48 
+=== cbc_tunnel
+successfully loaded 1 connections, 0 unloaded
+successfully loaded 1 connections, 0 unloaded
+initiate completed successfully
+g1: #9, ESTABLISHED, IKEv2, 26b402798292f041_i* d004d576e7c3f3e5_r
+  c: #8, reqid 1, INSTALLED, TUNNEL, ESP:AES_CBC-128/HMAC_SHA2_256_128
+tcpdump: listening on br-dd92a87deb66, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+48 packets captured
+48 packets received by filter
+0 packets dropped by kernel
+--- count  L  L%4  (L-40)%16
+      6 88 0 0
+      6 104 0 0
+      6 136 0 0
+      6 184 0 0
+      6 280 0 0
+      6 584 0 0
+      6 1080 0 0
+      6 1480 0 0
+--- UDP port of ESP packets (blank = raw ESP)
+     48 

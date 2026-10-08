@@ -1,0 +1,92 @@
+{
+ "overall": {
+  "n": 160,
+  "answered": 160,
+  "coverage": 1.0,
+  "acc_on_answered": 1.0,
+  "wrong": 0
+ },
+ "baseline_note": "two balanced classes: majority baseline is 0.5",
+ "by_config": {
+  "C1": {
+   "n": 20,
+   "answered": 20,
+   "coverage": 1.0,
+   "acc_on_answered": 1.0,
+   "wrong": 0
+  },
+  "C2": {
+   "n": 20,
+   "answered": 20,
+   "coverage": 1.0,
+   "acc_on_answered": 1.0,
+   "wrong": 0
+  },
+  "C3": {
+   "n": 20,
+   "answered": 20,
+   "coverage": 1.0,
+   "acc_on_answered": 1.0,
+   "wrong": 0
+  },
+  "C4": {
+   "n": 20,
+   "answered": 20,
+   "coverage": 1.0,
+   "acc_on_answered": 1.0,
+   "wrong": 0
+  },
+  "C5": {
+   "n": 20,
+   "answered": 20,
+   "coverage": 1.0,
+   "acc_on_answered": 1.0,
+   "wrong": 0
+  },
+  "C6": {
+   "n": 20,
+   "answered": 20,
+   "coverage": 1.0,
+   "acc_on_answered": 1.0,
+   "wrong": 0
+  },
+  "C7": {
+   "n": 20,
+   "answered": 20,
+   "coverage": 1.0,
+   "acc_on_answered": 1.0,
+   "wrong": 0
+  },
+  "C8": {
+   "n": 20,
+   "answered": 20,
+   "coverage": 1.0,
+   "acc_on_answered": 1.0,
+   "wrong": 0
+  }
+ },
+ "by_mode": {
+  "transport": {
+   "n": 80,
+   "answered": 80,
+   "coverage": 1.0,
+   "acc_on_answered": 1.0,
+   "wrong": 0
+  },
+  "tunnel": {
+   "n": 80,
+   "answered": 80,
+   "coverage": 1.0,
+   "acc_on_answered": 1.0,
+   "wrong": 0
+  }
+ },
+ "rel_range_off": [
+  -80.0,
+  -64.0
+ ],
+ "rel_range_on": [
+  192.0,
+  208.0
+ ]
+}

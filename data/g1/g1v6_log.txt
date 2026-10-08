@@ -1,0 +1,24 @@
+dee976b45886d7f5e38b1dbd50d26994dc25bb47f7b6e284f4604880bae62e24
+bridge: br-dee976b45886
+--- plain IPv6 reachability
+2 packets transmitted, 2 received, 0% packet loss, time 1002ms
+successfully loaded 1 connections, 1 unloaded
+successfully loaded 1 connections, 1 unloaded
+initiate completed successfully
+g1v6: #10, ESTABLISHED, IKEv2, 75a468ce03d1f06c_i* 705015a3b0d4dcd1_r
+  c: #9, reqid 1, INSTALLED, TUNNEL, ESP:AES_CBC-128/HMAC_SHA2_256_128
+tcpdump: listening on br-dee976b45886, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+56 packets captured
+56 packets received by filter
+0 packets dropped by kernel
+--- count  L  L%4  (L-40)%16
+      6 104 0 0
+      6 120 0 0
+      6 152 0 0
+      6 200 0 0
+      6 296 0 0
+      6 600 0 0
+      6 1096 0 0
+      6 1304 0 0
+--- UDP port of ESP packets (blank = raw ESP)
+     48 

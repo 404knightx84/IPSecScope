@@ -1,0 +1,10 @@
+{
+ "CBC": {
+  "transport": 88,
+  "tunnel": 104
+ },
+ "GCM": {
+  "transport": 68,
+  "tunnel": 88
+ }
+}

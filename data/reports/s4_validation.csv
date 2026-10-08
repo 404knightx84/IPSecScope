@@ -1,0 +1,1359 @@
+run,check,status,detail
+c1_email_r1,parse,PASS,"12013 packets, 1 IKE SA, 8 ESP flows"
+c1_email_r1,one_ike_sa,PASS,1 sessions
+c1_email_r1,ike_version,PASS,pcap 2 / label 2
+c1_email_r1,dh_group,PASS,pcap 14 / label 14
+c1_email_r1,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c1_email_r1,rekey_times,PASS,max diff 0.0s
+c1_email_r1,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c1_email_r1,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c1_email_r2,parse,PASS,"21797 packets, 1 IKE SA, 8 ESP flows"
+c1_email_r2,one_ike_sa,PASS,1 sessions
+c1_email_r2,ike_version,PASS,pcap 2 / label 2
+c1_email_r2,dh_group,PASS,pcap 14 / label 14
+c1_email_r2,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c1_email_r2,rekey_times,PASS,max diff 0.0s
+c1_email_r2,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c1_email_r2,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c1_email_r3,parse,PASS,"15253 packets, 1 IKE SA, 8 ESP flows"
+c1_email_r3,one_ike_sa,PASS,1 sessions
+c1_email_r3,ike_version,PASS,pcap 2 / label 2
+c1_email_r3,dh_group,PASS,pcap 14 / label 14
+c1_email_r3,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c1_email_r3,rekey_times,PASS,max diff 0.0s
+c1_email_r3,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c1_email_r3,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c1_email_r4,parse,PASS,"22316 packets, 1 IKE SA, 8 ESP flows"
+c1_email_r4,one_ike_sa,PASS,1 sessions
+c1_email_r4,ike_version,PASS,pcap 2 / label 2
+c1_email_r4,dh_group,PASS,pcap 14 / label 14
+c1_email_r4,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c1_email_r4,rekey_times,PASS,max diff 0.0s
+c1_email_r4,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c1_email_r4,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c1_ping_r1,parse,PASS,"226 packets, 1 IKE SA, 8 ESP flows"
+c1_ping_r1,one_ike_sa,PASS,1 sessions
+c1_ping_r1,ike_version,PASS,pcap 2 / label 2
+c1_ping_r1,dh_group,PASS,pcap 14 / label 14
+c1_ping_r1,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c1_ping_r1,rekey_times,PASS,max diff 0.0s
+c1_ping_r1,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c1_ping_r1,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c1_ping_r2,parse,PASS,"214 packets, 1 IKE SA, 8 ESP flows"
+c1_ping_r2,one_ike_sa,PASS,1 sessions
+c1_ping_r2,ike_version,PASS,pcap 2 / label 2
+c1_ping_r2,dh_group,PASS,pcap 14 / label 14
+c1_ping_r2,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c1_ping_r2,rekey_times,PASS,max diff 0.0s
+c1_ping_r2,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c1_ping_r2,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c1_ping_r3,parse,PASS,"208 packets, 1 IKE SA, 8 ESP flows"
+c1_ping_r3,one_ike_sa,PASS,1 sessions
+c1_ping_r3,ike_version,PASS,pcap 2 / label 2
+c1_ping_r3,dh_group,PASS,pcap 14 / label 14
+c1_ping_r3,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c1_ping_r3,rekey_times,PASS,max diff 0.0s
+c1_ping_r3,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c1_ping_r3,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c1_ping_r4,parse,PASS,"256 packets, 1 IKE SA, 8 ESP flows"
+c1_ping_r4,one_ike_sa,PASS,1 sessions
+c1_ping_r4,ike_version,PASS,pcap 2 / label 2
+c1_ping_r4,dh_group,PASS,pcap 14 / label 14
+c1_ping_r4,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c1_ping_r4,rekey_times,PASS,max diff 0.0s
+c1_ping_r4,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c1_ping_r4,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c1_video_r1,parse,PASS,"35862 packets, 1 IKE SA, 8 ESP flows"
+c1_video_r1,one_ike_sa,PASS,1 sessions
+c1_video_r1,ike_version,PASS,pcap 2 / label 2
+c1_video_r1,dh_group,PASS,pcap 14 / label 14
+c1_video_r1,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c1_video_r1,rekey_times,PASS,max diff 0.0s
+c1_video_r1,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c1_video_r1,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c1_video_r2,parse,PASS,"14179 packets, 1 IKE SA, 8 ESP flows"
+c1_video_r2,one_ike_sa,PASS,1 sessions
+c1_video_r2,ike_version,PASS,pcap 2 / label 2
+c1_video_r2,dh_group,PASS,pcap 14 / label 14
+c1_video_r2,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c1_video_r2,rekey_times,PASS,max diff 0.0s
+c1_video_r2,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c1_video_r2,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c1_video_r3,parse,PASS,"25321 packets, 1 IKE SA, 8 ESP flows"
+c1_video_r3,one_ike_sa,PASS,1 sessions
+c1_video_r3,ike_version,PASS,pcap 2 / label 2
+c1_video_r3,dh_group,PASS,pcap 14 / label 14
+c1_video_r3,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c1_video_r3,rekey_times,PASS,max diff 0.0s
+c1_video_r3,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c1_video_r3,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c1_video_r4,parse,PASS,"35066 packets, 1 IKE SA, 8 ESP flows"
+c1_video_r4,one_ike_sa,PASS,1 sessions
+c1_video_r4,ike_version,PASS,pcap 2 / label 2
+c1_video_r4,dh_group,PASS,pcap 14 / label 14
+c1_video_r4,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c1_video_r4,rekey_times,PASS,max diff 0.0s
+c1_video_r4,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c1_video_r4,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c1_voip_r1,parse,PASS,"12020 packets, 1 IKE SA, 8 ESP flows"
+c1_voip_r1,one_ike_sa,PASS,1 sessions
+c1_voip_r1,ike_version,PASS,pcap 2 / label 2
+c1_voip_r1,dh_group,PASS,pcap 14 / label 14
+c1_voip_r1,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c1_voip_r1,rekey_times,PASS,max diff 0.0s
+c1_voip_r1,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c1_voip_r1,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c1_voip_r2,parse,PASS,"12022 packets, 1 IKE SA, 8 ESP flows"
+c1_voip_r2,one_ike_sa,PASS,1 sessions
+c1_voip_r2,ike_version,PASS,pcap 2 / label 2
+c1_voip_r2,dh_group,PASS,pcap 14 / label 14
+c1_voip_r2,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c1_voip_r2,rekey_times,PASS,max diff 0.0s
+c1_voip_r2,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c1_voip_r2,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c1_voip_r3,parse,PASS,"11829 packets, 1 IKE SA, 8 ESP flows"
+c1_voip_r3,one_ike_sa,PASS,1 sessions
+c1_voip_r3,ike_version,PASS,pcap 2 / label 2
+c1_voip_r3,dh_group,PASS,pcap 14 / label 14
+c1_voip_r3,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c1_voip_r3,rekey_times,PASS,max diff 0.0s
+c1_voip_r3,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c1_voip_r3,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c1_voip_r4,parse,PASS,"11945 packets, 1 IKE SA, 8 ESP flows"
+c1_voip_r4,one_ike_sa,PASS,1 sessions
+c1_voip_r4,ike_version,PASS,pcap 2 / label 2
+c1_voip_r4,dh_group,PASS,pcap 14 / label 14
+c1_voip_r4,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c1_voip_r4,rekey_times,PASS,max diff 0.0s
+c1_voip_r4,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c1_voip_r4,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c1_web_r1,parse,PASS,"27216 packets, 1 IKE SA, 8 ESP flows"
+c1_web_r1,one_ike_sa,PASS,1 sessions
+c1_web_r1,ike_version,PASS,pcap 2 / label 2
+c1_web_r1,dh_group,PASS,pcap 14 / label 14
+c1_web_r1,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c1_web_r1,rekey_times,PASS,max diff 0.0s
+c1_web_r1,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c1_web_r1,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c1_web_r2,parse,PASS,"31840 packets, 1 IKE SA, 8 ESP flows"
+c1_web_r2,one_ike_sa,PASS,1 sessions
+c1_web_r2,ike_version,PASS,pcap 2 / label 2
+c1_web_r2,dh_group,PASS,pcap 14 / label 14
+c1_web_r2,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c1_web_r2,rekey_times,PASS,max diff 0.0s
+c1_web_r2,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c1_web_r2,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c1_web_r3,parse,PASS,"20239 packets, 1 IKE SA, 8 ESP flows"
+c1_web_r3,one_ike_sa,PASS,1 sessions
+c1_web_r3,ike_version,PASS,pcap 2 / label 2
+c1_web_r3,dh_group,PASS,pcap 14 / label 14
+c1_web_r3,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c1_web_r3,rekey_times,PASS,max diff 0.0s
+c1_web_r3,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c1_web_r3,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c1_web_r4,parse,PASS,"29549 packets, 1 IKE SA, 8 ESP flows"
+c1_web_r4,one_ike_sa,PASS,1 sessions
+c1_web_r4,ike_version,PASS,pcap 2 / label 2
+c1_web_r4,dh_group,PASS,pcap 14 / label 14
+c1_web_r4,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c1_web_r4,rekey_times,PASS,max diff 0.0s
+c1_web_r4,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c1_web_r4,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c2_email_r1,parse,PASS,"12091 packets, 1 IKE SA, 8 ESP flows"
+c2_email_r1,one_ike_sa,PASS,1 sessions
+c2_email_r1,ike_version,PASS,pcap 2 / label 2
+c2_email_r1,dh_group,PASS,pcap 14 / label 14
+c2_email_r1,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c2_email_r1,rekey_times,PASS,max diff 0.0s
+c2_email_r1,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c2_email_r1,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c2_email_r2,parse,PASS,"21523 packets, 1 IKE SA, 8 ESP flows"
+c2_email_r2,one_ike_sa,PASS,1 sessions
+c2_email_r2,ike_version,PASS,pcap 2 / label 2
+c2_email_r2,dh_group,PASS,pcap 14 / label 14
+c2_email_r2,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c2_email_r2,rekey_times,PASS,max diff 0.0s
+c2_email_r2,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c2_email_r2,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c2_email_r3,parse,PASS,"15147 packets, 1 IKE SA, 8 ESP flows"
+c2_email_r3,one_ike_sa,PASS,1 sessions
+c2_email_r3,ike_version,PASS,pcap 2 / label 2
+c2_email_r3,dh_group,PASS,pcap 14 / label 14
+c2_email_r3,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c2_email_r3,rekey_times,PASS,max diff 0.0s
+c2_email_r3,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c2_email_r3,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c2_email_r4,parse,PASS,"22296 packets, 1 IKE SA, 8 ESP flows"
+c2_email_r4,one_ike_sa,PASS,1 sessions
+c2_email_r4,ike_version,PASS,pcap 2 / label 2
+c2_email_r4,dh_group,PASS,pcap 14 / label 14
+c2_email_r4,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c2_email_r4,rekey_times,PASS,max diff 0.0s
+c2_email_r4,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c2_email_r4,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c2_ping_r1,parse,PASS,"238 packets, 1 IKE SA, 8 ESP flows"
+c2_ping_r1,one_ike_sa,PASS,1 sessions
+c2_ping_r1,ike_version,PASS,pcap 2 / label 2
+c2_ping_r1,dh_group,PASS,pcap 14 / label 14
+c2_ping_r1,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c2_ping_r1,rekey_times,PASS,max diff 0.0s
+c2_ping_r1,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c2_ping_r1,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c2_ping_r2,parse,PASS,"212 packets, 1 IKE SA, 8 ESP flows"
+c2_ping_r2,one_ike_sa,PASS,1 sessions
+c2_ping_r2,ike_version,PASS,pcap 2 / label 2
+c2_ping_r2,dh_group,PASS,pcap 14 / label 14
+c2_ping_r2,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c2_ping_r2,rekey_times,PASS,max diff 0.0s
+c2_ping_r2,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c2_ping_r2,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c2_ping_r3,parse,PASS,"222 packets, 1 IKE SA, 8 ESP flows"
+c2_ping_r3,one_ike_sa,PASS,1 sessions
+c2_ping_r3,ike_version,PASS,pcap 2 / label 2
+c2_ping_r3,dh_group,PASS,pcap 14 / label 14
+c2_ping_r3,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c2_ping_r3,rekey_times,PASS,max diff 0.0s
+c2_ping_r3,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c2_ping_r3,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c2_ping_r4,parse,PASS,"239 packets, 1 IKE SA, 8 ESP flows"
+c2_ping_r4,one_ike_sa,PASS,1 sessions
+c2_ping_r4,ike_version,PASS,pcap 2 / label 2
+c2_ping_r4,dh_group,PASS,pcap 14 / label 14
+c2_ping_r4,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c2_ping_r4,rekey_times,PASS,max diff 0.0s
+c2_ping_r4,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c2_ping_r4,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c2_video_r1,parse,PASS,"40160 packets, 1 IKE SA, 8 ESP flows"
+c2_video_r1,one_ike_sa,PASS,1 sessions
+c2_video_r1,ike_version,PASS,pcap 2 / label 2
+c2_video_r1,dh_group,PASS,pcap 14 / label 14
+c2_video_r1,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c2_video_r1,rekey_times,PASS,max diff 0.0s
+c2_video_r1,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c2_video_r1,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c2_video_r2,parse,PASS,"16959 packets, 1 IKE SA, 8 ESP flows"
+c2_video_r2,one_ike_sa,PASS,1 sessions
+c2_video_r2,ike_version,PASS,pcap 2 / label 2
+c2_video_r2,dh_group,PASS,pcap 14 / label 14
+c2_video_r2,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c2_video_r2,rekey_times,PASS,max diff 0.0s
+c2_video_r2,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c2_video_r2,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c2_video_r3,parse,PASS,"26396 packets, 1 IKE SA, 8 ESP flows"
+c2_video_r3,one_ike_sa,PASS,1 sessions
+c2_video_r3,ike_version,PASS,pcap 2 / label 2
+c2_video_r3,dh_group,PASS,pcap 14 / label 14
+c2_video_r3,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c2_video_r3,rekey_times,PASS,max diff 0.0s
+c2_video_r3,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c2_video_r3,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c2_video_r4,parse,PASS,"34553 packets, 1 IKE SA, 8 ESP flows"
+c2_video_r4,one_ike_sa,PASS,1 sessions
+c2_video_r4,ike_version,PASS,pcap 2 / label 2
+c2_video_r4,dh_group,PASS,pcap 14 / label 14
+c2_video_r4,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c2_video_r4,rekey_times,PASS,max diff 0.0s
+c2_video_r4,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c2_video_r4,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c2_voip_r1,parse,PASS,"12020 packets, 1 IKE SA, 8 ESP flows"
+c2_voip_r1,one_ike_sa,PASS,1 sessions
+c2_voip_r1,ike_version,PASS,pcap 2 / label 2
+c2_voip_r1,dh_group,PASS,pcap 14 / label 14
+c2_voip_r1,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c2_voip_r1,rekey_times,PASS,max diff 0.0s
+c2_voip_r1,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c2_voip_r1,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c2_voip_r2,parse,PASS,"12021 packets, 1 IKE SA, 8 ESP flows"
+c2_voip_r2,one_ike_sa,PASS,1 sessions
+c2_voip_r2,ike_version,PASS,pcap 2 / label 2
+c2_voip_r2,dh_group,PASS,pcap 14 / label 14
+c2_voip_r2,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c2_voip_r2,rekey_times,PASS,max diff 0.0s
+c2_voip_r2,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c2_voip_r2,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c2_voip_r3,parse,PASS,"11858 packets, 1 IKE SA, 8 ESP flows"
+c2_voip_r3,one_ike_sa,PASS,1 sessions
+c2_voip_r3,ike_version,PASS,pcap 2 / label 2
+c2_voip_r3,dh_group,PASS,pcap 14 / label 14
+c2_voip_r3,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c2_voip_r3,rekey_times,PASS,max diff 0.0s
+c2_voip_r3,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c2_voip_r3,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c2_voip_r4,parse,PASS,"11934 packets, 1 IKE SA, 8 ESP flows"
+c2_voip_r4,one_ike_sa,PASS,1 sessions
+c2_voip_r4,ike_version,PASS,pcap 2 / label 2
+c2_voip_r4,dh_group,PASS,pcap 14 / label 14
+c2_voip_r4,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c2_voip_r4,rekey_times,PASS,max diff 0.0s
+c2_voip_r4,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c2_voip_r4,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c2_web_r1,parse,PASS,"44783 packets, 1 IKE SA, 8 ESP flows"
+c2_web_r1,one_ike_sa,PASS,1 sessions
+c2_web_r1,ike_version,PASS,pcap 2 / label 2
+c2_web_r1,dh_group,PASS,pcap 14 / label 14
+c2_web_r1,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c2_web_r1,rekey_times,PASS,max diff 0.0s
+c2_web_r1,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c2_web_r1,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c2_web_r2,parse,PASS,"34657 packets, 1 IKE SA, 8 ESP flows"
+c2_web_r2,one_ike_sa,PASS,1 sessions
+c2_web_r2,ike_version,PASS,pcap 2 / label 2
+c2_web_r2,dh_group,PASS,pcap 14 / label 14
+c2_web_r2,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c2_web_r2,rekey_times,PASS,max diff 0.0s
+c2_web_r2,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c2_web_r2,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c2_web_r3,parse,PASS,"23917 packets, 1 IKE SA, 8 ESP flows"
+c2_web_r3,one_ike_sa,PASS,1 sessions
+c2_web_r3,ike_version,PASS,pcap 2 / label 2
+c2_web_r3,dh_group,PASS,pcap 14 / label 14
+c2_web_r3,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c2_web_r3,rekey_times,PASS,max diff 0.0s
+c2_web_r3,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c2_web_r3,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c2_web_r4,parse,PASS,"25820 packets, 1 IKE SA, 8 ESP flows"
+c2_web_r4,one_ike_sa,PASS,1 sessions
+c2_web_r4,ike_version,PASS,pcap 2 / label 2
+c2_web_r4,dh_group,PASS,pcap 14 / label 14
+c2_web_r4,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c2_web_r4,rekey_times,PASS,max diff 0.0s
+c2_web_r4,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c2_web_r4,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c3_email_r1,parse,PASS,"11870 packets, 1 IKE SA, 8 ESP flows"
+c3_email_r1,one_ike_sa,PASS,1 sessions
+c3_email_r1,ike_version,PASS,pcap 2 / label 2
+c3_email_r1,dh_group,PASS,pcap 14 / label 14
+c3_email_r1,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c3_email_r1,rekey_times,PASS,max diff 0.0s
+c3_email_r1,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c3_email_r1,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c3_email_r2,parse,PASS,"21545 packets, 1 IKE SA, 8 ESP flows"
+c3_email_r2,one_ike_sa,PASS,1 sessions
+c3_email_r2,ike_version,PASS,pcap 2 / label 2
+c3_email_r2,dh_group,PASS,pcap 14 / label 14
+c3_email_r2,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c3_email_r2,rekey_times,PASS,max diff 0.0s
+c3_email_r2,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c3_email_r2,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c3_email_r3,parse,PASS,"15301 packets, 1 IKE SA, 8 ESP flows"
+c3_email_r3,one_ike_sa,PASS,1 sessions
+c3_email_r3,ike_version,PASS,pcap 2 / label 2
+c3_email_r3,dh_group,PASS,pcap 14 / label 14
+c3_email_r3,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c3_email_r3,rekey_times,PASS,max diff 0.0s
+c3_email_r3,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c3_email_r3,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c3_email_r4,parse,PASS,"22312 packets, 1 IKE SA, 8 ESP flows"
+c3_email_r4,one_ike_sa,PASS,1 sessions
+c3_email_r4,ike_version,PASS,pcap 2 / label 2
+c3_email_r4,dh_group,PASS,pcap 14 / label 14
+c3_email_r4,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c3_email_r4,rekey_times,PASS,max diff 0.0s
+c3_email_r4,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c3_email_r4,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c3_ping_r1,parse,PASS,"212 packets, 1 IKE SA, 8 ESP flows"
+c3_ping_r1,one_ike_sa,PASS,1 sessions
+c3_ping_r1,ike_version,PASS,pcap 2 / label 2
+c3_ping_r1,dh_group,PASS,pcap 14 / label 14
+c3_ping_r1,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c3_ping_r1,rekey_times,PASS,max diff 0.0s
+c3_ping_r1,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c3_ping_r1,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c3_ping_r2,parse,PASS,"234 packets, 1 IKE SA, 8 ESP flows"
+c3_ping_r2,one_ike_sa,PASS,1 sessions
+c3_ping_r2,ike_version,PASS,pcap 2 / label 2
+c3_ping_r2,dh_group,PASS,pcap 14 / label 14
+c3_ping_r2,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c3_ping_r2,rekey_times,PASS,max diff 0.0s
+c3_ping_r2,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c3_ping_r2,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c3_ping_r3,parse,PASS,"233 packets, 1 IKE SA, 8 ESP flows"
+c3_ping_r3,one_ike_sa,PASS,1 sessions
+c3_ping_r3,ike_version,PASS,pcap 2 / label 2
+c3_ping_r3,dh_group,PASS,pcap 14 / label 14
+c3_ping_r3,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c3_ping_r3,rekey_times,PASS,max diff 0.0s
+c3_ping_r3,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c3_ping_r3,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c3_ping_r4,parse,PASS,"222 packets, 1 IKE SA, 8 ESP flows"
+c3_ping_r4,one_ike_sa,PASS,1 sessions
+c3_ping_r4,ike_version,PASS,pcap 2 / label 2
+c3_ping_r4,dh_group,PASS,pcap 14 / label 14
+c3_ping_r4,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c3_ping_r4,rekey_times,PASS,max diff 0.0s
+c3_ping_r4,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c3_ping_r4,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c3_video_r1,parse,PASS,"41582 packets, 1 IKE SA, 8 ESP flows"
+c3_video_r1,one_ike_sa,PASS,1 sessions
+c3_video_r1,ike_version,PASS,pcap 2 / label 2
+c3_video_r1,dh_group,PASS,pcap 14 / label 14
+c3_video_r1,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c3_video_r1,rekey_times,PASS,max diff 0.0s
+c3_video_r1,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c3_video_r1,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c3_video_r2,parse,PASS,"16959 packets, 1 IKE SA, 8 ESP flows"
+c3_video_r2,one_ike_sa,PASS,1 sessions
+c3_video_r2,ike_version,PASS,pcap 2 / label 2
+c3_video_r2,dh_group,PASS,pcap 14 / label 14
+c3_video_r2,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c3_video_r2,rekey_times,PASS,max diff 0.0s
+c3_video_r2,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c3_video_r2,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c3_video_r3,parse,PASS,"26326 packets, 1 IKE SA, 8 ESP flows"
+c3_video_r3,one_ike_sa,PASS,1 sessions
+c3_video_r3,ike_version,PASS,pcap 2 / label 2
+c3_video_r3,dh_group,PASS,pcap 14 / label 14
+c3_video_r3,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c3_video_r3,rekey_times,PASS,max diff 0.0s
+c3_video_r3,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c3_video_r3,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c3_video_r4,parse,PASS,"35143 packets, 1 IKE SA, 8 ESP flows"
+c3_video_r4,one_ike_sa,PASS,1 sessions
+c3_video_r4,ike_version,PASS,pcap 2 / label 2
+c3_video_r4,dh_group,PASS,pcap 14 / label 14
+c3_video_r4,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c3_video_r4,rekey_times,PASS,max diff 0.0s
+c3_video_r4,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c3_video_r4,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c3_voip_r1,parse,PASS,"12020 packets, 1 IKE SA, 8 ESP flows"
+c3_voip_r1,one_ike_sa,PASS,1 sessions
+c3_voip_r1,ike_version,PASS,pcap 2 / label 2
+c3_voip_r1,dh_group,PASS,pcap 14 / label 14
+c3_voip_r1,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c3_voip_r1,rekey_times,PASS,max diff 0.0s
+c3_voip_r1,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c3_voip_r1,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c3_voip_r2,parse,PASS,"12021 packets, 1 IKE SA, 8 ESP flows"
+c3_voip_r2,one_ike_sa,PASS,1 sessions
+c3_voip_r2,ike_version,PASS,pcap 2 / label 2
+c3_voip_r2,dh_group,PASS,pcap 14 / label 14
+c3_voip_r2,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c3_voip_r2,rekey_times,PASS,max diff 0.0s
+c3_voip_r2,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c3_voip_r2,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c3_voip_r3,parse,PASS,"11855 packets, 1 IKE SA, 8 ESP flows"
+c3_voip_r3,one_ike_sa,PASS,1 sessions
+c3_voip_r3,ike_version,PASS,pcap 2 / label 2
+c3_voip_r3,dh_group,PASS,pcap 14 / label 14
+c3_voip_r3,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c3_voip_r3,rekey_times,PASS,max diff 0.0s
+c3_voip_r3,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c3_voip_r3,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c3_voip_r4,parse,PASS,"11935 packets, 1 IKE SA, 8 ESP flows"
+c3_voip_r4,one_ike_sa,PASS,1 sessions
+c3_voip_r4,ike_version,PASS,pcap 2 / label 2
+c3_voip_r4,dh_group,PASS,pcap 14 / label 14
+c3_voip_r4,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c3_voip_r4,rekey_times,PASS,max diff 0.0s
+c3_voip_r4,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c3_voip_r4,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c3_web_r1,parse,PASS,"46169 packets, 1 IKE SA, 8 ESP flows"
+c3_web_r1,one_ike_sa,PASS,1 sessions
+c3_web_r1,ike_version,PASS,pcap 2 / label 2
+c3_web_r1,dh_group,PASS,pcap 14 / label 14
+c3_web_r1,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c3_web_r1,rekey_times,PASS,max diff 0.0s
+c3_web_r1,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c3_web_r1,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c3_web_r2,parse,PASS,"39893 packets, 1 IKE SA, 8 ESP flows"
+c3_web_r2,one_ike_sa,PASS,1 sessions
+c3_web_r2,ike_version,PASS,pcap 2 / label 2
+c3_web_r2,dh_group,PASS,pcap 14 / label 14
+c3_web_r2,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c3_web_r2,rekey_times,PASS,max diff 0.0s
+c3_web_r2,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c3_web_r2,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c3_web_r3,parse,PASS,"23070 packets, 1 IKE SA, 8 ESP flows"
+c3_web_r3,one_ike_sa,PASS,1 sessions
+c3_web_r3,ike_version,PASS,pcap 2 / label 2
+c3_web_r3,dh_group,PASS,pcap 14 / label 14
+c3_web_r3,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c3_web_r3,rekey_times,PASS,max diff 0.0s
+c3_web_r3,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c3_web_r3,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c3_web_r4,parse,PASS,"26444 packets, 1 IKE SA, 8 ESP flows"
+c3_web_r4,one_ike_sa,PASS,1 sessions
+c3_web_r4,ike_version,PASS,pcap 2 / label 2
+c3_web_r4,dh_group,PASS,pcap 14 / label 14
+c3_web_r4,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c3_web_r4,rekey_times,PASS,max diff 0.0s
+c3_web_r4,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c3_web_r4,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c4_email_r1,parse,PASS,"12281 packets, 1 IKE SA, 8 ESP flows"
+c4_email_r1,one_ike_sa,PASS,1 sessions
+c4_email_r1,ike_version,PASS,pcap 2 / label 2
+c4_email_r1,dh_group,PASS,pcap 14 / label 14
+c4_email_r1,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c4_email_r1,rekey_times,PASS,max diff 0.0s
+c4_email_r1,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c4_email_r1,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c4_email_r2,parse,PASS,"22847 packets, 1 IKE SA, 8 ESP flows"
+c4_email_r2,one_ike_sa,PASS,1 sessions
+c4_email_r2,ike_version,PASS,pcap 2 / label 2
+c4_email_r2,dh_group,PASS,pcap 14 / label 14
+c4_email_r2,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c4_email_r2,rekey_times,PASS,max diff 0.0s
+c4_email_r2,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c4_email_r2,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c4_email_r3,parse,PASS,"15484 packets, 1 IKE SA, 8 ESP flows"
+c4_email_r3,one_ike_sa,PASS,1 sessions
+c4_email_r3,ike_version,PASS,pcap 2 / label 2
+c4_email_r3,dh_group,PASS,pcap 14 / label 14
+c4_email_r3,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c4_email_r3,rekey_times,PASS,max diff 0.0s
+c4_email_r3,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c4_email_r3,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c4_email_r4,parse,PASS,"22190 packets, 1 IKE SA, 8 ESP flows"
+c4_email_r4,one_ike_sa,PASS,1 sessions
+c4_email_r4,ike_version,PASS,pcap 2 / label 2
+c4_email_r4,dh_group,PASS,pcap 14 / label 14
+c4_email_r4,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c4_email_r4,rekey_times,PASS,max diff 0.0s
+c4_email_r4,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c4_email_r4,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c4_ping_r1,parse,PASS,"216 packets, 1 IKE SA, 8 ESP flows"
+c4_ping_r1,one_ike_sa,PASS,1 sessions
+c4_ping_r1,ike_version,PASS,pcap 2 / label 2
+c4_ping_r1,dh_group,PASS,pcap 14 / label 14
+c4_ping_r1,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c4_ping_r1,rekey_times,PASS,max diff 0.0s
+c4_ping_r1,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c4_ping_r1,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c4_ping_r2,parse,PASS,"278 packets, 1 IKE SA, 8 ESP flows"
+c4_ping_r2,one_ike_sa,PASS,1 sessions
+c4_ping_r2,ike_version,PASS,pcap 2 / label 2
+c4_ping_r2,dh_group,PASS,pcap 14 / label 14
+c4_ping_r2,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c4_ping_r2,rekey_times,PASS,max diff 0.0s
+c4_ping_r2,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c4_ping_r2,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c4_ping_r3,parse,PASS,"247 packets, 1 IKE SA, 8 ESP flows"
+c4_ping_r3,one_ike_sa,PASS,1 sessions
+c4_ping_r3,ike_version,PASS,pcap 2 / label 2
+c4_ping_r3,dh_group,PASS,pcap 14 / label 14
+c4_ping_r3,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c4_ping_r3,rekey_times,PASS,max diff 0.0s
+c4_ping_r3,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c4_ping_r3,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c4_ping_r4,parse,PASS,"218 packets, 1 IKE SA, 8 ESP flows"
+c4_ping_r4,one_ike_sa,PASS,1 sessions
+c4_ping_r4,ike_version,PASS,pcap 2 / label 2
+c4_ping_r4,dh_group,PASS,pcap 14 / label 14
+c4_ping_r4,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c4_ping_r4,rekey_times,PASS,max diff 0.0s
+c4_ping_r4,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c4_ping_r4,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c4_video_r1,parse,PASS,"47445 packets, 1 IKE SA, 8 ESP flows"
+c4_video_r1,one_ike_sa,PASS,1 sessions
+c4_video_r1,ike_version,PASS,pcap 2 / label 2
+c4_video_r1,dh_group,PASS,pcap 14 / label 14
+c4_video_r1,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c4_video_r1,rekey_times,PASS,max diff 0.0s
+c4_video_r1,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c4_video_r1,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c4_video_r2,parse,PASS,"15462 packets, 1 IKE SA, 8 ESP flows"
+c4_video_r2,one_ike_sa,PASS,1 sessions
+c4_video_r2,ike_version,PASS,pcap 2 / label 2
+c4_video_r2,dh_group,PASS,pcap 14 / label 14
+c4_video_r2,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c4_video_r2,rekey_times,PASS,max diff 0.0s
+c4_video_r2,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c4_video_r2,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c4_video_r3,parse,PASS,"26479 packets, 1 IKE SA, 8 ESP flows"
+c4_video_r3,one_ike_sa,PASS,1 sessions
+c4_video_r3,ike_version,PASS,pcap 2 / label 2
+c4_video_r3,dh_group,PASS,pcap 14 / label 14
+c4_video_r3,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c4_video_r3,rekey_times,PASS,max diff 0.0s
+c4_video_r3,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c4_video_r3,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c4_video_r4,parse,PASS,"35819 packets, 1 IKE SA, 8 ESP flows"
+c4_video_r4,one_ike_sa,PASS,1 sessions
+c4_video_r4,ike_version,PASS,pcap 2 / label 2
+c4_video_r4,dh_group,PASS,pcap 14 / label 14
+c4_video_r4,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c4_video_r4,rekey_times,PASS,max diff 0.0s
+c4_video_r4,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c4_video_r4,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c4_voip_r1,parse,PASS,"12020 packets, 1 IKE SA, 8 ESP flows"
+c4_voip_r1,one_ike_sa,PASS,1 sessions
+c4_voip_r1,ike_version,PASS,pcap 2 / label 2
+c4_voip_r1,dh_group,PASS,pcap 14 / label 14
+c4_voip_r1,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c4_voip_r1,rekey_times,PASS,max diff 0.0s
+c4_voip_r1,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c4_voip_r1,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c4_voip_r2,parse,PASS,"12022 packets, 1 IKE SA, 8 ESP flows"
+c4_voip_r2,one_ike_sa,PASS,1 sessions
+c4_voip_r2,ike_version,PASS,pcap 2 / label 2
+c4_voip_r2,dh_group,PASS,pcap 14 / label 14
+c4_voip_r2,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c4_voip_r2,rekey_times,PASS,max diff 0.0s
+c4_voip_r2,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c4_voip_r2,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c4_voip_r3,parse,PASS,"11835 packets, 1 IKE SA, 8 ESP flows"
+c4_voip_r3,one_ike_sa,PASS,1 sessions
+c4_voip_r3,ike_version,PASS,pcap 2 / label 2
+c4_voip_r3,dh_group,PASS,pcap 14 / label 14
+c4_voip_r3,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c4_voip_r3,rekey_times,PASS,max diff 0.0s
+c4_voip_r3,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c4_voip_r3,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c4_voip_r4,parse,PASS,"11946 packets, 1 IKE SA, 8 ESP flows"
+c4_voip_r4,one_ike_sa,PASS,1 sessions
+c4_voip_r4,ike_version,PASS,pcap 2 / label 2
+c4_voip_r4,dh_group,PASS,pcap 14 / label 14
+c4_voip_r4,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c4_voip_r4,rekey_times,PASS,max diff 0.0s
+c4_voip_r4,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c4_voip_r4,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c4_web_r1,parse,PASS,"31966 packets, 1 IKE SA, 8 ESP flows"
+c4_web_r1,one_ike_sa,PASS,1 sessions
+c4_web_r1,ike_version,PASS,pcap 2 / label 2
+c4_web_r1,dh_group,PASS,pcap 14 / label 14
+c4_web_r1,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c4_web_r1,rekey_times,PASS,max diff 0.0s
+c4_web_r1,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c4_web_r1,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c4_web_r2,parse,PASS,"39595 packets, 1 IKE SA, 8 ESP flows"
+c4_web_r2,one_ike_sa,PASS,1 sessions
+c4_web_r2,ike_version,PASS,pcap 2 / label 2
+c4_web_r2,dh_group,PASS,pcap 14 / label 14
+c4_web_r2,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c4_web_r2,rekey_times,PASS,max diff 0.0s
+c4_web_r2,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c4_web_r2,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c4_web_r3,parse,PASS,"26750 packets, 1 IKE SA, 8 ESP flows"
+c4_web_r3,one_ike_sa,PASS,1 sessions
+c4_web_r3,ike_version,PASS,pcap 2 / label 2
+c4_web_r3,dh_group,PASS,pcap 14 / label 14
+c4_web_r3,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c4_web_r3,rekey_times,PASS,max diff 0.0s
+c4_web_r3,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c4_web_r3,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c4_web_r4,parse,PASS,"24211 packets, 1 IKE SA, 8 ESP flows"
+c4_web_r4,one_ike_sa,PASS,1 sessions
+c4_web_r4,ike_version,PASS,pcap 2 / label 2
+c4_web_r4,dh_group,PASS,pcap 14 / label 14
+c4_web_r4,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c4_web_r4,rekey_times,PASS,max diff 0.0s
+c4_web_r4,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c4_web_r4,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c5_email_r1,parse,PASS,"11775 packets, 1 IKE SA, 8 ESP flows"
+c5_email_r1,one_ike_sa,PASS,1 sessions
+c5_email_r1,ike_version,PASS,pcap 2 / label 2
+c5_email_r1,dh_group,PASS,pcap 14 / label 14
+c5_email_r1,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c5_email_r1,rekey_times,PASS,max diff 0.0s
+c5_email_r1,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c5_email_r1,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c5_email_r2,parse,PASS,"21672 packets, 1 IKE SA, 8 ESP flows"
+c5_email_r2,one_ike_sa,PASS,1 sessions
+c5_email_r2,ike_version,PASS,pcap 2 / label 2
+c5_email_r2,dh_group,PASS,pcap 14 / label 14
+c5_email_r2,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c5_email_r2,rekey_times,PASS,max diff 0.0s
+c5_email_r2,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c5_email_r2,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c5_email_r3,parse,PASS,"14948 packets, 1 IKE SA, 8 ESP flows"
+c5_email_r3,one_ike_sa,PASS,1 sessions
+c5_email_r3,ike_version,PASS,pcap 2 / label 2
+c5_email_r3,dh_group,PASS,pcap 14 / label 14
+c5_email_r3,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c5_email_r3,rekey_times,PASS,max diff 0.0s
+c5_email_r3,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c5_email_r3,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c5_email_r4,parse,PASS,"22089 packets, 1 IKE SA, 8 ESP flows"
+c5_email_r4,one_ike_sa,PASS,1 sessions
+c5_email_r4,ike_version,PASS,pcap 2 / label 2
+c5_email_r4,dh_group,PASS,pcap 14 / label 14
+c5_email_r4,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c5_email_r4,rekey_times,PASS,max diff 0.0s
+c5_email_r4,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c5_email_r4,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c5_ping_r1,parse,PASS,"220 packets, 1 IKE SA, 8 ESP flows"
+c5_ping_r1,one_ike_sa,PASS,1 sessions
+c5_ping_r1,ike_version,PASS,pcap 2 / label 2
+c5_ping_r1,dh_group,PASS,pcap 14 / label 14
+c5_ping_r1,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c5_ping_r1,rekey_times,PASS,max diff 0.0s
+c5_ping_r1,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c5_ping_r1,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c5_ping_r2,parse,PASS,"260 packets, 1 IKE SA, 8 ESP flows"
+c5_ping_r2,one_ike_sa,PASS,1 sessions
+c5_ping_r2,ike_version,PASS,pcap 2 / label 2
+c5_ping_r2,dh_group,PASS,pcap 14 / label 14
+c5_ping_r2,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c5_ping_r2,rekey_times,PASS,max diff 0.0s
+c5_ping_r2,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c5_ping_r2,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c5_ping_r3,parse,PASS,"248 packets, 1 IKE SA, 8 ESP flows"
+c5_ping_r3,one_ike_sa,PASS,1 sessions
+c5_ping_r3,ike_version,PASS,pcap 2 / label 2
+c5_ping_r3,dh_group,PASS,pcap 14 / label 14
+c5_ping_r3,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c5_ping_r3,rekey_times,PASS,max diff 0.0s
+c5_ping_r3,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c5_ping_r3,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c5_ping_r4,parse,PASS,"196 packets, 1 IKE SA, 8 ESP flows"
+c5_ping_r4,one_ike_sa,PASS,1 sessions
+c5_ping_r4,ike_version,PASS,pcap 2 / label 2
+c5_ping_r4,dh_group,PASS,pcap 14 / label 14
+c5_ping_r4,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c5_ping_r4,rekey_times,PASS,max diff 0.0s
+c5_ping_r4,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c5_ping_r4,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c5_video_r1,parse,PASS,"47497 packets, 1 IKE SA, 8 ESP flows"
+c5_video_r1,one_ike_sa,PASS,1 sessions
+c5_video_r1,ike_version,PASS,pcap 2 / label 2
+c5_video_r1,dh_group,PASS,pcap 14 / label 14
+c5_video_r1,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c5_video_r1,rekey_times,PASS,max diff 0.0s
+c5_video_r1,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c5_video_r1,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c5_video_r2,parse,PASS,"16592 packets, 1 IKE SA, 8 ESP flows"
+c5_video_r2,one_ike_sa,PASS,1 sessions
+c5_video_r2,ike_version,PASS,pcap 2 / label 2
+c5_video_r2,dh_group,PASS,pcap 14 / label 14
+c5_video_r2,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c5_video_r2,rekey_times,PASS,max diff 0.0s
+c5_video_r2,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c5_video_r2,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c5_video_r3,parse,PASS,"27135 packets, 1 IKE SA, 8 ESP flows"
+c5_video_r3,one_ike_sa,PASS,1 sessions
+c5_video_r3,ike_version,PASS,pcap 2 / label 2
+c5_video_r3,dh_group,PASS,pcap 14 / label 14
+c5_video_r3,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c5_video_r3,rekey_times,PASS,max diff 0.0s
+c5_video_r3,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c5_video_r3,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c5_video_r4,parse,PASS,"33701 packets, 1 IKE SA, 8 ESP flows"
+c5_video_r4,one_ike_sa,PASS,1 sessions
+c5_video_r4,ike_version,PASS,pcap 2 / label 2
+c5_video_r4,dh_group,PASS,pcap 14 / label 14
+c5_video_r4,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c5_video_r4,rekey_times,PASS,max diff 0.0s
+c5_video_r4,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c5_video_r4,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c5_voip_r1,parse,PASS,"12020 packets, 1 IKE SA, 8 ESP flows"
+c5_voip_r1,one_ike_sa,PASS,1 sessions
+c5_voip_r1,ike_version,PASS,pcap 2 / label 2
+c5_voip_r1,dh_group,PASS,pcap 14 / label 14
+c5_voip_r1,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c5_voip_r1,rekey_times,PASS,max diff 0.0s
+c5_voip_r1,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c5_voip_r1,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c5_voip_r2,parse,PASS,"12022 packets, 1 IKE SA, 8 ESP flows"
+c5_voip_r2,one_ike_sa,PASS,1 sessions
+c5_voip_r2,ike_version,PASS,pcap 2 / label 2
+c5_voip_r2,dh_group,PASS,pcap 14 / label 14
+c5_voip_r2,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c5_voip_r2,rekey_times,PASS,max diff 0.0s
+c5_voip_r2,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c5_voip_r2,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c5_voip_r3,parse,PASS,"11849 packets, 1 IKE SA, 8 ESP flows"
+c5_voip_r3,one_ike_sa,PASS,1 sessions
+c5_voip_r3,ike_version,PASS,pcap 2 / label 2
+c5_voip_r3,dh_group,PASS,pcap 14 / label 14
+c5_voip_r3,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c5_voip_r3,rekey_times,PASS,max diff 0.0s
+c5_voip_r3,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c5_voip_r3,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c5_voip_r4,parse,PASS,"11930 packets, 1 IKE SA, 8 ESP flows"
+c5_voip_r4,one_ike_sa,PASS,1 sessions
+c5_voip_r4,ike_version,PASS,pcap 2 / label 2
+c5_voip_r4,dh_group,PASS,pcap 14 / label 14
+c5_voip_r4,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c5_voip_r4,rekey_times,PASS,max diff 0.0s
+c5_voip_r4,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c5_voip_r4,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c5_web_r1,parse,PASS,"57551 packets, 1 IKE SA, 8 ESP flows"
+c5_web_r1,one_ike_sa,PASS,1 sessions
+c5_web_r1,ike_version,PASS,pcap 2 / label 2
+c5_web_r1,dh_group,PASS,pcap 14 / label 14
+c5_web_r1,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c5_web_r1,rekey_times,PASS,max diff 0.0s
+c5_web_r1,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c5_web_r1,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c5_web_r2,parse,PASS,"36900 packets, 1 IKE SA, 8 ESP flows"
+c5_web_r2,one_ike_sa,PASS,1 sessions
+c5_web_r2,ike_version,PASS,pcap 2 / label 2
+c5_web_r2,dh_group,PASS,pcap 14 / label 14
+c5_web_r2,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c5_web_r2,rekey_times,PASS,max diff 0.0s
+c5_web_r2,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c5_web_r2,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c5_web_r3,parse,PASS,"19744 packets, 1 IKE SA, 8 ESP flows"
+c5_web_r3,one_ike_sa,PASS,1 sessions
+c5_web_r3,ike_version,PASS,pcap 2 / label 2
+c5_web_r3,dh_group,PASS,pcap 14 / label 14
+c5_web_r3,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c5_web_r3,rekey_times,PASS,max diff 0.0s
+c5_web_r3,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c5_web_r3,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c5_web_r4,parse,PASS,"32362 packets, 1 IKE SA, 8 ESP flows"
+c5_web_r4,one_ike_sa,PASS,1 sessions
+c5_web_r4,ike_version,PASS,pcap 2 / label 2
+c5_web_r4,dh_group,PASS,pcap 14 / label 14
+c5_web_r4,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c5_web_r4,rekey_times,PASS,max diff 0.0s
+c5_web_r4,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c5_web_r4,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 7} / mine {34: 2, 35: 2, 36: 6, 37: 7}"
+c6_email_r1,parse,PASS,"12299 packets, 1 IKE SA, 8 ESP flows"
+c6_email_r1,one_ike_sa,PASS,1 sessions
+c6_email_r1,ike_version,PASS,pcap 2 / label 2
+c6_email_r1,dh_group,PASS,pcap 14 / label 14
+c6_email_r1,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c6_email_r1,rekey_times,PASS,max diff 0.0s
+c6_email_r1,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c6_email_r1,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c6_email_r2,parse,PASS,"20980 packets, 1 IKE SA, 8 ESP flows"
+c6_email_r2,one_ike_sa,PASS,1 sessions
+c6_email_r2,ike_version,PASS,pcap 2 / label 2
+c6_email_r2,dh_group,PASS,pcap 14 / label 14
+c6_email_r2,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c6_email_r2,rekey_times,PASS,max diff 0.0s
+c6_email_r2,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c6_email_r2,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c6_email_r3,parse,PASS,"16552 packets, 1 IKE SA, 8 ESP flows"
+c6_email_r3,one_ike_sa,PASS,1 sessions
+c6_email_r3,ike_version,PASS,pcap 2 / label 2
+c6_email_r3,dh_group,PASS,pcap 14 / label 14
+c6_email_r3,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c6_email_r3,rekey_times,PASS,max diff 0.0s
+c6_email_r3,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c6_email_r3,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c6_email_r4,parse,PASS,"22106 packets, 1 IKE SA, 8 ESP flows"
+c6_email_r4,one_ike_sa,PASS,1 sessions
+c6_email_r4,ike_version,PASS,pcap 2 / label 2
+c6_email_r4,dh_group,PASS,pcap 14 / label 14
+c6_email_r4,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c6_email_r4,rekey_times,PASS,max diff 0.0s
+c6_email_r4,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c6_email_r4,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c6_ping_r1,parse,PASS,"202 packets, 1 IKE SA, 8 ESP flows"
+c6_ping_r1,one_ike_sa,PASS,1 sessions
+c6_ping_r1,ike_version,PASS,pcap 2 / label 2
+c6_ping_r1,dh_group,PASS,pcap 14 / label 14
+c6_ping_r1,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c6_ping_r1,rekey_times,PASS,max diff 0.0s
+c6_ping_r1,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c6_ping_r1,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c6_ping_r2,parse,PASS,"276 packets, 1 IKE SA, 8 ESP flows"
+c6_ping_r2,one_ike_sa,PASS,1 sessions
+c6_ping_r2,ike_version,PASS,pcap 2 / label 2
+c6_ping_r2,dh_group,PASS,pcap 14 / label 14
+c6_ping_r2,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c6_ping_r2,rekey_times,PASS,max diff 0.0s
+c6_ping_r2,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c6_ping_r2,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c6_ping_r3,parse,PASS,"242 packets, 1 IKE SA, 8 ESP flows"
+c6_ping_r3,one_ike_sa,PASS,1 sessions
+c6_ping_r3,ike_version,PASS,pcap 2 / label 2
+c6_ping_r3,dh_group,PASS,pcap 14 / label 14
+c6_ping_r3,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c6_ping_r3,rekey_times,PASS,max diff 0.0s
+c6_ping_r3,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c6_ping_r3,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c6_ping_r4,parse,PASS,"201 packets, 1 IKE SA, 8 ESP flows"
+c6_ping_r4,one_ike_sa,PASS,1 sessions
+c6_ping_r4,ike_version,PASS,pcap 2 / label 2
+c6_ping_r4,dh_group,PASS,pcap 14 / label 14
+c6_ping_r4,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c6_ping_r4,rekey_times,PASS,max diff 0.0s
+c6_ping_r4,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c6_ping_r4,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c6_video_r1,parse,PASS,"36926 packets, 1 IKE SA, 8 ESP flows"
+c6_video_r1,one_ike_sa,PASS,1 sessions
+c6_video_r1,ike_version,PASS,pcap 2 / label 2
+c6_video_r1,dh_group,PASS,pcap 14 / label 14
+c6_video_r1,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c6_video_r1,rekey_times,PASS,max diff 0.0s
+c6_video_r1,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c6_video_r1,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c6_video_r2,parse,PASS,"14890 packets, 1 IKE SA, 8 ESP flows"
+c6_video_r2,one_ike_sa,PASS,1 sessions
+c6_video_r2,ike_version,PASS,pcap 2 / label 2
+c6_video_r2,dh_group,PASS,pcap 14 / label 14
+c6_video_r2,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c6_video_r2,rekey_times,PASS,max diff 0.0s
+c6_video_r2,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c6_video_r2,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c6_video_r3,parse,PASS,"28743 packets, 1 IKE SA, 8 ESP flows"
+c6_video_r3,one_ike_sa,PASS,1 sessions
+c6_video_r3,ike_version,PASS,pcap 2 / label 2
+c6_video_r3,dh_group,PASS,pcap 14 / label 14
+c6_video_r3,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c6_video_r3,rekey_times,PASS,max diff 0.0s
+c6_video_r3,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c6_video_r3,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c6_video_r4,parse,PASS,"33492 packets, 1 IKE SA, 8 ESP flows"
+c6_video_r4,one_ike_sa,PASS,1 sessions
+c6_video_r4,ike_version,PASS,pcap 2 / label 2
+c6_video_r4,dh_group,PASS,pcap 14 / label 14
+c6_video_r4,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c6_video_r4,rekey_times,PASS,max diff 0.0s
+c6_video_r4,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c6_video_r4,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c6_voip_r1,parse,PASS,"12020 packets, 1 IKE SA, 8 ESP flows"
+c6_voip_r1,one_ike_sa,PASS,1 sessions
+c6_voip_r1,ike_version,PASS,pcap 2 / label 2
+c6_voip_r1,dh_group,PASS,pcap 14 / label 14
+c6_voip_r1,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c6_voip_r1,rekey_times,PASS,max diff 0.0s
+c6_voip_r1,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c6_voip_r1,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c6_voip_r2,parse,PASS,"12022 packets, 1 IKE SA, 8 ESP flows"
+c6_voip_r2,one_ike_sa,PASS,1 sessions
+c6_voip_r2,ike_version,PASS,pcap 2 / label 2
+c6_voip_r2,dh_group,PASS,pcap 14 / label 14
+c6_voip_r2,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c6_voip_r2,rekey_times,PASS,max diff 0.0s
+c6_voip_r2,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c6_voip_r2,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c6_voip_r3,parse,PASS,"11860 packets, 1 IKE SA, 8 ESP flows"
+c6_voip_r3,one_ike_sa,PASS,1 sessions
+c6_voip_r3,ike_version,PASS,pcap 2 / label 2
+c6_voip_r3,dh_group,PASS,pcap 14 / label 14
+c6_voip_r3,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c6_voip_r3,rekey_times,PASS,max diff 0.0s
+c6_voip_r3,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c6_voip_r3,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c6_voip_r4,parse,PASS,"11940 packets, 1 IKE SA, 8 ESP flows"
+c6_voip_r4,one_ike_sa,PASS,1 sessions
+c6_voip_r4,ike_version,PASS,pcap 2 / label 2
+c6_voip_r4,dh_group,PASS,pcap 14 / label 14
+c6_voip_r4,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c6_voip_r4,rekey_times,PASS,max diff 0.0s
+c6_voip_r4,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c6_voip_r4,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c6_web_r1,parse,PASS,"29589 packets, 1 IKE SA, 8 ESP flows"
+c6_web_r1,one_ike_sa,PASS,1 sessions
+c6_web_r1,ike_version,PASS,pcap 2 / label 2
+c6_web_r1,dh_group,PASS,pcap 14 / label 14
+c6_web_r1,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c6_web_r1,rekey_times,PASS,max diff 0.0s
+c6_web_r1,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c6_web_r1,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c6_web_r2,parse,PASS,"32571 packets, 1 IKE SA, 8 ESP flows"
+c6_web_r2,one_ike_sa,PASS,1 sessions
+c6_web_r2,ike_version,PASS,pcap 2 / label 2
+c6_web_r2,dh_group,PASS,pcap 14 / label 14
+c6_web_r2,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c6_web_r2,rekey_times,PASS,max diff 0.0s
+c6_web_r2,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c6_web_r2,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c6_web_r3,parse,PASS,"21112 packets, 1 IKE SA, 8 ESP flows"
+c6_web_r3,one_ike_sa,PASS,1 sessions
+c6_web_r3,ike_version,PASS,pcap 2 / label 2
+c6_web_r3,dh_group,PASS,pcap 14 / label 14
+c6_web_r3,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c6_web_r3,rekey_times,PASS,max diff 0.0s
+c6_web_r3,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c6_web_r3,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c6_web_r4,parse,PASS,"32493 packets, 1 IKE SA, 8 ESP flows"
+c6_web_r4,one_ike_sa,PASS,1 sessions
+c6_web_r4,ike_version,PASS,pcap 2 / label 2
+c6_web_r4,dh_group,PASS,pcap 14 / label 14
+c6_web_r4,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c6_web_r4,rekey_times,PASS,max diff 0.0s
+c6_web_r4,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c6_web_r4,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c7_email_r1,parse,PASS,"11927 packets, 1 IKE SA, 8 ESP flows"
+c7_email_r1,one_ike_sa,PASS,1 sessions
+c7_email_r1,ike_version,PASS,pcap 2 / label 2
+c7_email_r1,dh_group,PASS,pcap 14 / label 14
+c7_email_r1,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c7_email_r1,rekey_times,PASS,max diff 0.0s
+c7_email_r1,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c7_email_r1,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c7_email_r2,parse,PASS,"19648 packets, 1 IKE SA, 8 ESP flows"
+c7_email_r2,one_ike_sa,PASS,1 sessions
+c7_email_r2,ike_version,PASS,pcap 2 / label 2
+c7_email_r2,dh_group,PASS,pcap 14 / label 14
+c7_email_r2,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c7_email_r2,rekey_times,PASS,max diff 0.0s
+c7_email_r2,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c7_email_r2,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c7_email_r3,parse,PASS,"14793 packets, 1 IKE SA, 8 ESP flows"
+c7_email_r3,one_ike_sa,PASS,1 sessions
+c7_email_r3,ike_version,PASS,pcap 2 / label 2
+c7_email_r3,dh_group,PASS,pcap 14 / label 14
+c7_email_r3,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c7_email_r3,rekey_times,PASS,max diff 0.0s
+c7_email_r3,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c7_email_r3,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c7_email_r4,parse,PASS,"21836 packets, 1 IKE SA, 8 ESP flows"
+c7_email_r4,one_ike_sa,PASS,1 sessions
+c7_email_r4,ike_version,PASS,pcap 2 / label 2
+c7_email_r4,dh_group,PASS,pcap 14 / label 14
+c7_email_r4,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c7_email_r4,rekey_times,PASS,max diff 0.0s
+c7_email_r4,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c7_email_r4,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c7_ping_r1,parse,PASS,"222 packets, 1 IKE SA, 8 ESP flows"
+c7_ping_r1,one_ike_sa,PASS,1 sessions
+c7_ping_r1,ike_version,PASS,pcap 2 / label 2
+c7_ping_r1,dh_group,PASS,pcap 14 / label 14
+c7_ping_r1,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c7_ping_r1,rekey_times,PASS,max diff 0.0s
+c7_ping_r1,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c7_ping_r1,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c7_ping_r2,parse,PASS,"210 packets, 1 IKE SA, 8 ESP flows"
+c7_ping_r2,one_ike_sa,PASS,1 sessions
+c7_ping_r2,ike_version,PASS,pcap 2 / label 2
+c7_ping_r2,dh_group,PASS,pcap 14 / label 14
+c7_ping_r2,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c7_ping_r2,rekey_times,PASS,max diff 0.0s
+c7_ping_r2,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c7_ping_r2,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c7_ping_r3,parse,PASS,"214 packets, 1 IKE SA, 8 ESP flows"
+c7_ping_r3,one_ike_sa,PASS,1 sessions
+c7_ping_r3,ike_version,PASS,pcap 2 / label 2
+c7_ping_r3,dh_group,PASS,pcap 14 / label 14
+c7_ping_r3,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c7_ping_r3,rekey_times,PASS,max diff 0.0s
+c7_ping_r3,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c7_ping_r3,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c7_ping_r4,parse,PASS,"238 packets, 1 IKE SA, 8 ESP flows"
+c7_ping_r4,one_ike_sa,PASS,1 sessions
+c7_ping_r4,ike_version,PASS,pcap 2 / label 2
+c7_ping_r4,dh_group,PASS,pcap 14 / label 14
+c7_ping_r4,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c7_ping_r4,rekey_times,PASS,max diff 0.0s
+c7_ping_r4,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c7_ping_r4,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c7_video_r1,parse,PASS,"36708 packets, 1 IKE SA, 8 ESP flows"
+c7_video_r1,one_ike_sa,PASS,1 sessions
+c7_video_r1,ike_version,PASS,pcap 2 / label 2
+c7_video_r1,dh_group,PASS,pcap 14 / label 14
+c7_video_r1,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c7_video_r1,rekey_times,PASS,max diff 0.0s
+c7_video_r1,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c7_video_r1,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c7_video_r2,parse,PASS,"16122 packets, 1 IKE SA, 8 ESP flows"
+c7_video_r2,one_ike_sa,PASS,1 sessions
+c7_video_r2,ike_version,PASS,pcap 2 / label 2
+c7_video_r2,dh_group,PASS,pcap 14 / label 14
+c7_video_r2,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c7_video_r2,rekey_times,PASS,max diff 0.0s
+c7_video_r2,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c7_video_r2,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c7_video_r3,parse,PASS,"27065 packets, 1 IKE SA, 8 ESP flows"
+c7_video_r3,one_ike_sa,PASS,1 sessions
+c7_video_r3,ike_version,PASS,pcap 2 / label 2
+c7_video_r3,dh_group,PASS,pcap 14 / label 14
+c7_video_r3,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c7_video_r3,rekey_times,PASS,max diff 0.0s
+c7_video_r3,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c7_video_r3,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c7_video_r4,parse,PASS,"34210 packets, 1 IKE SA, 8 ESP flows"
+c7_video_r4,one_ike_sa,PASS,1 sessions
+c7_video_r4,ike_version,PASS,pcap 2 / label 2
+c7_video_r4,dh_group,PASS,pcap 14 / label 14
+c7_video_r4,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c7_video_r4,rekey_times,PASS,max diff 0.0s
+c7_video_r4,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c7_video_r4,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c7_voip_r1,parse,PASS,"12020 packets, 1 IKE SA, 8 ESP flows"
+c7_voip_r1,one_ike_sa,PASS,1 sessions
+c7_voip_r1,ike_version,PASS,pcap 2 / label 2
+c7_voip_r1,dh_group,PASS,pcap 14 / label 14
+c7_voip_r1,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c7_voip_r1,rekey_times,PASS,max diff 0.0s
+c7_voip_r1,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c7_voip_r1,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c7_voip_r2,parse,PASS,"12022 packets, 1 IKE SA, 8 ESP flows"
+c7_voip_r2,one_ike_sa,PASS,1 sessions
+c7_voip_r2,ike_version,PASS,pcap 2 / label 2
+c7_voip_r2,dh_group,PASS,pcap 14 / label 14
+c7_voip_r2,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c7_voip_r2,rekey_times,PASS,max diff 0.0s
+c7_voip_r2,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c7_voip_r2,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c7_voip_r3,parse,PASS,"11836 packets, 1 IKE SA, 8 ESP flows"
+c7_voip_r3,one_ike_sa,PASS,1 sessions
+c7_voip_r3,ike_version,PASS,pcap 2 / label 2
+c7_voip_r3,dh_group,PASS,pcap 14 / label 14
+c7_voip_r3,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c7_voip_r3,rekey_times,PASS,max diff 0.0s
+c7_voip_r3,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c7_voip_r3,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c7_voip_r4,parse,PASS,"11942 packets, 1 IKE SA, 8 ESP flows"
+c7_voip_r4,one_ike_sa,PASS,1 sessions
+c7_voip_r4,ike_version,PASS,pcap 2 / label 2
+c7_voip_r4,dh_group,PASS,pcap 14 / label 14
+c7_voip_r4,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c7_voip_r4,rekey_times,PASS,max diff 0.0s
+c7_voip_r4,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c7_voip_r4,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c7_web_r1,parse,PASS,"34139 packets, 1 IKE SA, 8 ESP flows"
+c7_web_r1,one_ike_sa,PASS,1 sessions
+c7_web_r1,ike_version,PASS,pcap 2 / label 2
+c7_web_r1,dh_group,PASS,pcap 14 / label 14
+c7_web_r1,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c7_web_r1,rekey_times,PASS,max diff 0.0s
+c7_web_r1,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c7_web_r1,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c7_web_r2,parse,PASS,"30564 packets, 1 IKE SA, 8 ESP flows"
+c7_web_r2,one_ike_sa,PASS,1 sessions
+c7_web_r2,ike_version,PASS,pcap 2 / label 2
+c7_web_r2,dh_group,PASS,pcap 14 / label 14
+c7_web_r2,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c7_web_r2,rekey_times,PASS,max diff 0.0s
+c7_web_r2,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c7_web_r2,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c7_web_r3,parse,PASS,"15777 packets, 1 IKE SA, 8 ESP flows"
+c7_web_r3,one_ike_sa,PASS,1 sessions
+c7_web_r3,ike_version,PASS,pcap 2 / label 2
+c7_web_r3,dh_group,PASS,pcap 14 / label 14
+c7_web_r3,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c7_web_r3,rekey_times,PASS,max diff 0.0s
+c7_web_r3,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c7_web_r3,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 7, 37: 6} / mine {34: 2, 35: 2, 36: 7, 37: 6}"
+c7_web_r4,parse,PASS,"29077 packets, 1 IKE SA, 8 ESP flows"
+c7_web_r4,one_ike_sa,PASS,1 sessions
+c7_web_r4,ike_version,PASS,pcap 2 / label 2
+c7_web_r4,dh_group,PASS,pcap 14 / label 14
+c7_web_r4,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c7_web_r4,rekey_times,PASS,max diff 0.0s
+c7_web_r4,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c7_web_r4,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c8_email_r1,parse,PASS,"12650 packets, 1 IKE SA, 8 ESP flows"
+c8_email_r1,one_ike_sa,PASS,1 sessions
+c8_email_r1,ike_version,PASS,pcap 2 / label 2
+c8_email_r1,dh_group,PASS,pcap 14 / label 14
+c8_email_r1,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c8_email_r1,rekey_times,PASS,max diff 0.0s
+c8_email_r1,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c8_email_r1,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c8_email_r2,parse,PASS,"21351 packets, 1 IKE SA, 8 ESP flows"
+c8_email_r2,one_ike_sa,PASS,1 sessions
+c8_email_r2,ike_version,PASS,pcap 2 / label 2
+c8_email_r2,dh_group,PASS,pcap 14 / label 14
+c8_email_r2,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c8_email_r2,rekey_times,PASS,max diff 0.0s
+c8_email_r2,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c8_email_r2,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c8_email_r3,parse,PASS,"16588 packets, 1 IKE SA, 8 ESP flows"
+c8_email_r3,one_ike_sa,PASS,1 sessions
+c8_email_r3,ike_version,PASS,pcap 2 / label 2
+c8_email_r3,dh_group,PASS,pcap 14 / label 14
+c8_email_r3,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c8_email_r3,rekey_times,PASS,max diff 0.0s
+c8_email_r3,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c8_email_r3,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c8_email_r4,parse,PASS,"22123 packets, 1 IKE SA, 8 ESP flows"
+c8_email_r4,one_ike_sa,PASS,1 sessions
+c8_email_r4,ike_version,PASS,pcap 2 / label 2
+c8_email_r4,dh_group,PASS,pcap 14 / label 14
+c8_email_r4,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c8_email_r4,rekey_times,PASS,max diff 0.0s
+c8_email_r4,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c8_email_r4,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c8_ping_r1,parse,PASS,"262 packets, 1 IKE SA, 8 ESP flows"
+c8_ping_r1,one_ike_sa,PASS,1 sessions
+c8_ping_r1,ike_version,PASS,pcap 2 / label 2
+c8_ping_r1,dh_group,PASS,pcap 14 / label 14
+c8_ping_r1,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c8_ping_r1,rekey_times,PASS,max diff 0.0s
+c8_ping_r1,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c8_ping_r1,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c8_ping_r2,parse,PASS,"250 packets, 1 IKE SA, 8 ESP flows"
+c8_ping_r2,one_ike_sa,PASS,1 sessions
+c8_ping_r2,ike_version,PASS,pcap 2 / label 2
+c8_ping_r2,dh_group,PASS,pcap 14 / label 14
+c8_ping_r2,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c8_ping_r2,rekey_times,PASS,max diff 0.0s
+c8_ping_r2,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c8_ping_r2,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c8_ping_r3,parse,PASS,"240 packets, 1 IKE SA, 8 ESP flows"
+c8_ping_r3,one_ike_sa,PASS,1 sessions
+c8_ping_r3,ike_version,PASS,pcap 2 / label 2
+c8_ping_r3,dh_group,PASS,pcap 14 / label 14
+c8_ping_r3,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c8_ping_r3,rekey_times,PASS,max diff 0.0s
+c8_ping_r3,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c8_ping_r3,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c8_ping_r4,parse,PASS,"204 packets, 1 IKE SA, 8 ESP flows"
+c8_ping_r4,one_ike_sa,PASS,1 sessions
+c8_ping_r4,ike_version,PASS,pcap 2 / label 2
+c8_ping_r4,dh_group,PASS,pcap 14 / label 14
+c8_ping_r4,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c8_ping_r4,rekey_times,PASS,max diff 0.0s
+c8_ping_r4,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c8_ping_r4,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c8_video_r1,parse,PASS,"40211 packets, 1 IKE SA, 8 ESP flows"
+c8_video_r1,one_ike_sa,PASS,1 sessions
+c8_video_r1,ike_version,PASS,pcap 2 / label 2
+c8_video_r1,dh_group,PASS,pcap 14 / label 14
+c8_video_r1,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c8_video_r1,rekey_times,PASS,max diff 0.0s
+c8_video_r1,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c8_video_r1,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c8_video_r2,parse,PASS,"15267 packets, 1 IKE SA, 8 ESP flows"
+c8_video_r2,one_ike_sa,PASS,1 sessions
+c8_video_r2,ike_version,PASS,pcap 2 / label 2
+c8_video_r2,dh_group,PASS,pcap 14 / label 14
+c8_video_r2,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c8_video_r2,rekey_times,PASS,max diff 0.0s
+c8_video_r2,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c8_video_r2,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c8_video_r3,parse,PASS,"25100 packets, 1 IKE SA, 8 ESP flows"
+c8_video_r3,one_ike_sa,PASS,1 sessions
+c8_video_r3,ike_version,PASS,pcap 2 / label 2
+c8_video_r3,dh_group,PASS,pcap 14 / label 14
+c8_video_r3,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c8_video_r3,rekey_times,PASS,max diff 0.0s
+c8_video_r3,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c8_video_r3,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c8_video_r4,parse,PASS,"36762 packets, 1 IKE SA, 8 ESP flows"
+c8_video_r4,one_ike_sa,PASS,1 sessions
+c8_video_r4,ike_version,PASS,pcap 2 / label 2
+c8_video_r4,dh_group,PASS,pcap 14 / label 14
+c8_video_r4,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c8_video_r4,rekey_times,PASS,max diff 0.0s
+c8_video_r4,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c8_video_r4,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c8_voip_r1,parse,PASS,"12020 packets, 1 IKE SA, 8 ESP flows"
+c8_voip_r1,one_ike_sa,PASS,1 sessions
+c8_voip_r1,ike_version,PASS,pcap 2 / label 2
+c8_voip_r1,dh_group,PASS,pcap 14 / label 14
+c8_voip_r1,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c8_voip_r1,rekey_times,PASS,max diff 0.0s
+c8_voip_r1,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c8_voip_r1,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c8_voip_r2,parse,PASS,"12022 packets, 1 IKE SA, 8 ESP flows"
+c8_voip_r2,one_ike_sa,PASS,1 sessions
+c8_voip_r2,ike_version,PASS,pcap 2 / label 2
+c8_voip_r2,dh_group,PASS,pcap 14 / label 14
+c8_voip_r2,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c8_voip_r2,rekey_times,PASS,max diff 0.0s
+c8_voip_r2,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c8_voip_r2,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c8_voip_r3,parse,PASS,"11866 packets, 1 IKE SA, 8 ESP flows"
+c8_voip_r3,one_ike_sa,PASS,1 sessions
+c8_voip_r3,ike_version,PASS,pcap 2 / label 2
+c8_voip_r3,dh_group,PASS,pcap 14 / label 14
+c8_voip_r3,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c8_voip_r3,rekey_times,PASS,max diff 0.0s
+c8_voip_r3,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c8_voip_r3,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c8_voip_r4,parse,PASS,"11930 packets, 1 IKE SA, 8 ESP flows"
+c8_voip_r4,one_ike_sa,PASS,1 sessions
+c8_voip_r4,ike_version,PASS,pcap 2 / label 2
+c8_voip_r4,dh_group,PASS,pcap 14 / label 14
+c8_voip_r4,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c8_voip_r4,rekey_times,PASS,max diff 0.0s
+c8_voip_r4,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c8_voip_r4,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c8_web_r1,parse,PASS,"55994 packets, 1 IKE SA, 8 ESP flows"
+c8_web_r1,one_ike_sa,PASS,1 sessions
+c8_web_r1,ike_version,PASS,pcap 2 / label 2
+c8_web_r1,dh_group,PASS,pcap 14 / label 14
+c8_web_r1,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c8_web_r1,rekey_times,PASS,max diff 0.0s
+c8_web_r1,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c8_web_r1,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c8_web_r2,parse,PASS,"31069 packets, 1 IKE SA, 8 ESP flows"
+c8_web_r2,one_ike_sa,PASS,1 sessions
+c8_web_r2,ike_version,PASS,pcap 2 / label 2
+c8_web_r2,dh_group,PASS,pcap 14 / label 14
+c8_web_r2,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c8_web_r2,rekey_times,PASS,max diff 0.0s
+c8_web_r2,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c8_web_r2,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c8_web_r3,parse,PASS,"21382 packets, 1 IKE SA, 8 ESP flows"
+c8_web_r3,one_ike_sa,PASS,1 sessions
+c8_web_r3,ike_version,PASS,pcap 2 / label 2
+c8_web_r3,dh_group,PASS,pcap 14 / label 14
+c8_web_r3,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c8_web_r3,rekey_times,PASS,max diff 0.0s
+c8_web_r3,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c8_web_r3,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+c8_web_r4,parse,PASS,"26489 packets, 1 IKE SA, 8 ESP flows"
+c8_web_r4,one_ike_sa,PASS,1 sessions
+c8_web_r4,ike_version,PASS,pcap 2 / label 2
+c8_web_r4,dh_group,PASS,pcap 14 / label 14
+c8_web_r4,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+c8_web_r4,rekey_times,PASS,max diff 0.0s
+c8_web_r4,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+c8_web_r4,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+w1_ping_r1,parse,PASS,"236 packets, 1 IKE SA, 8 ESP flows"
+w1_ping_r1,one_ike_sa,PASS,1 sessions
+w1_ping_r1,ike_version,PASS,pcap 1 / label 1
+w1_ping_r1,aggressive_flag,PASS,aggressive=True
+w1_ping_r1,tshark_exchange_types,PASS,"tshark {4: 3, 5: 3, 32: 12} / mine {4: 3, 5: 3, 32: 12}"
+w1_ping_r2,parse,PASS,"238 packets, 1 IKE SA, 8 ESP flows"
+w1_ping_r2,one_ike_sa,PASS,1 sessions
+w1_ping_r2,ike_version,PASS,pcap 1 / label 1
+w1_ping_r2,aggressive_flag,PASS,aggressive=True
+w1_ping_r2,tshark_exchange_types,PASS,"tshark {4: 3, 5: 3, 32: 12} / mine {4: 3, 5: 3, 32: 12}"
+w1_voip_r1,parse,PASS,"12022 packets, 1 IKE SA, 8 ESP flows"
+w1_voip_r1,one_ike_sa,PASS,1 sessions
+w1_voip_r1,ike_version,PASS,pcap 1 / label 1
+w1_voip_r1,aggressive_flag,PASS,aggressive=True
+w1_voip_r1,tshark_exchange_types,PASS,"tshark {4: 3, 5: 3, 32: 13} / mine {4: 3, 5: 3, 32: 13}"
+w1_voip_r2,parse,PASS,"12024 packets, 1 IKE SA, 8 ESP flows"
+w1_voip_r2,one_ike_sa,PASS,1 sessions
+w1_voip_r2,ike_version,PASS,pcap 1 / label 1
+w1_voip_r2,aggressive_flag,PASS,aggressive=True
+w1_voip_r2,tshark_exchange_types,PASS,"tshark {4: 3, 5: 3, 32: 13} / mine {4: 3, 5: 3, 32: 13}"
+w1_web_r1,parse,PASS,"32370 packets, 1 IKE SA, 8 ESP flows"
+w1_web_r1,one_ike_sa,PASS,1 sessions
+w1_web_r1,ike_version,PASS,pcap 1 / label 1
+w1_web_r1,aggressive_flag,PASS,aggressive=True
+w1_web_r1,tshark_exchange_types,PASS,"tshark {4: 3, 5: 3, 32: 12} / mine {4: 3, 5: 3, 32: 12}"
+w1_web_r2,parse,PASS,"31558 packets, 1 IKE SA, 8 ESP flows"
+w1_web_r2,one_ike_sa,PASS,1 sessions
+w1_web_r2,ike_version,PASS,pcap 1 / label 1
+w1_web_r2,aggressive_flag,PASS,aggressive=True
+w1_web_r2,tshark_exchange_types,PASS,"tshark {4: 3, 5: 3, 32: 13} / mine {4: 3, 5: 3, 32: 13}"
+w2_ping_r1,parse,PASS,"202 packets, 1 IKE SA, 8 ESP flows"
+w2_ping_r1,one_ike_sa,PASS,1 sessions
+w2_ping_r1,ike_version,PASS,pcap 2 / label 2
+w2_ping_r1,dh_group,PASS,pcap 14 / label 14
+w2_ping_r1,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+w2_ping_r1,rekey_times,PASS,max diff 0.0s
+w2_ping_r1,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+w2_ping_r1,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+w2_ping_r2,parse,PASS,"254 packets, 1 IKE SA, 8 ESP flows"
+w2_ping_r2,one_ike_sa,PASS,1 sessions
+w2_ping_r2,ike_version,PASS,pcap 2 / label 2
+w2_ping_r2,dh_group,PASS,pcap 14 / label 14
+w2_ping_r2,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+w2_ping_r2,rekey_times,PASS,max diff 0.0s
+w2_ping_r2,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+w2_ping_r2,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+w2_voip_r1,parse,PASS,"12020 packets, 1 IKE SA, 8 ESP flows"
+w2_voip_r1,one_ike_sa,PASS,1 sessions
+w2_voip_r1,ike_version,PASS,pcap 2 / label 2
+w2_voip_r1,dh_group,PASS,pcap 14 / label 14
+w2_voip_r1,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+w2_voip_r1,rekey_times,PASS,max diff 0.0s
+w2_voip_r1,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+w2_voip_r1,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+w2_voip_r2,parse,PASS,"12021 packets, 1 IKE SA, 8 ESP flows"
+w2_voip_r2,one_ike_sa,PASS,1 sessions
+w2_voip_r2,ike_version,PASS,pcap 2 / label 2
+w2_voip_r2,dh_group,PASS,pcap 14 / label 14
+w2_voip_r2,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+w2_voip_r2,rekey_times,PASS,max diff 0.0s
+w2_voip_r2,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+w2_voip_r2,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+w2_web_r1,parse,PASS,"47919 packets, 1 IKE SA, 8 ESP flows"
+w2_web_r1,one_ike_sa,PASS,1 sessions
+w2_web_r1,ike_version,PASS,pcap 2 / label 2
+w2_web_r1,dh_group,PASS,pcap 14 / label 14
+w2_web_r1,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+w2_web_r1,rekey_times,PASS,max diff 0.0s
+w2_web_r1,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+w2_web_r1,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"
+w2_web_r2,parse,PASS,"39910 packets, 1 IKE SA, 8 ESP flows"
+w2_web_r2,one_ike_sa,PASS,1 sessions
+w2_web_r2,ike_version,PASS,pcap 2 / label 2
+w2_web_r2,dh_group,PASS,pcap 14 / label 14
+w2_web_r2,rekey_types,PASS,"pcap ['child', 'child', 'child'] / label ['child', 'child', 'child']"
+w2_web_r2,rekey_times,PASS,max diff 0.0s
+w2_web_r2,rekeys_vs_log,PASS,pcap child/ike 3/0 / log 3/0
+w2_web_r2,tshark_exchange_types,PASS,"tshark {34: 2, 35: 2, 36: 6, 37: 6} / mine {34: 2, 35: 2, 36: 6, 37: 6}"

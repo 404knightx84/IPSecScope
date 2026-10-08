@@ -1,0 +1,161 @@
+run,config,traffic,truth,pred,confidence,low_conf,distinct_L,group_has_truth,result
+c1_email_r1,C1,email,CBC+HMAC,CBC+HMAC,1.0,False,51,True,correct
+c1_email_r2,C1,email,CBC+HMAC,CBC+HMAC,1.0,False,43,True,correct
+c1_email_r3,C1,email,CBC+HMAC,CBC+HMAC,1.0,False,27,True,correct
+c1_email_r4,C1,email,CBC+HMAC,CBC+HMAC,1.0,False,38,True,correct
+c1_ping_r1,C1,ping,CBC+HMAC,CBC+HMAC,1.0,False,59,True,correct
+c1_ping_r2,C1,ping,CBC+HMAC,CBC+HMAC,1.0,False,58,True,correct
+c1_ping_r3,C1,ping,CBC+HMAC,CBC+HMAC,1.0,False,51,True,correct
+c1_ping_r4,C1,ping,CBC+HMAC,CBC+HMAC,1.0,False,63,True,correct
+c1_video_r1,C1,video,CBC+HMAC,CBC+HMAC,1.0,False,34,True,correct
+c1_video_r2,C1,video,CBC+HMAC,CBC+HMAC,1.0,False,31,True,correct
+c1_video_r3,C1,video,CBC+HMAC,CBC+HMAC,1.0,False,27,True,correct
+c1_video_r4,C1,video,CBC+HMAC,CBC+HMAC,1.0,False,29,True,correct
+c1_voip_r1,C1,voip,CBC+HMAC,CBC+HMAC or AEAD (GCM) (not separable),0.5,True,2,True,group_correct
+c1_voip_r2,C1,voip,CBC+HMAC,CBC+HMAC or AEAD (GCM) (not separable),0.5,True,3,True,group_correct
+c1_voip_r3,C1,voip,CBC+HMAC,CBC+HMAC or AEAD (GCM) (not separable),0.5,True,3,True,group_correct
+c1_voip_r4,C1,voip,CBC+HMAC,CBC+HMAC or AEAD (GCM) (not separable),0.5,True,3,True,group_correct
+c1_web_r1,C1,web,CBC+HMAC,CBC+HMAC,1.0,False,19,True,correct
+c1_web_r2,C1,web,CBC+HMAC,CBC+HMAC,1.0,False,14,True,correct
+c1_web_r3,C1,web,CBC+HMAC,CBC+HMAC,1.0,False,14,True,correct
+c1_web_r4,C1,web,CBC+HMAC,CBC+HMAC,1.0,False,14,True,correct
+c2_email_r1,C2,email,CBC+HMAC,CBC+HMAC,1.0,False,51,True,correct
+c2_email_r2,C2,email,CBC+HMAC,CBC+HMAC,1.0,False,43,True,correct
+c2_email_r3,C2,email,CBC+HMAC,CBC+HMAC,1.0,False,24,True,correct
+c2_email_r4,C2,email,CBC+HMAC,CBC+HMAC,1.0,False,39,True,correct
+c2_ping_r1,C2,ping,CBC+HMAC,CBC+HMAC,1.0,False,61,True,correct
+c2_ping_r2,C2,ping,CBC+HMAC,CBC+HMAC,1.0,False,57,True,correct
+c2_ping_r3,C2,ping,CBC+HMAC,CBC+HMAC,1.0,False,54,True,correct
+c2_ping_r4,C2,ping,CBC+HMAC,CBC+HMAC,1.0,False,60,True,correct
+c2_video_r1,C2,video,CBC+HMAC,CBC+HMAC,1.0,False,37,True,correct
+c2_video_r2,C2,video,CBC+HMAC,CBC+HMAC,1.0,False,31,True,correct
+c2_video_r3,C2,video,CBC+HMAC,CBC+HMAC,1.0,False,28,True,correct
+c2_video_r4,C2,video,CBC+HMAC,CBC+HMAC,1.0,False,29,True,correct
+c2_voip_r1,C2,voip,CBC+HMAC,CBC+HMAC or AEAD (GCM) (not separable),0.5,True,2,True,group_correct
+c2_voip_r2,C2,voip,CBC+HMAC,CBC+HMAC or AEAD (GCM) (not separable),0.5,True,3,True,group_correct
+c2_voip_r3,C2,voip,CBC+HMAC,CBC+HMAC or AEAD (GCM) (not separable),0.5,True,3,True,group_correct
+c2_voip_r4,C2,voip,CBC+HMAC,CBC+HMAC or AEAD (GCM) (not separable),0.5,True,2,True,group_correct
+c2_web_r1,C2,web,CBC+HMAC,CBC+HMAC,1.0,False,16,True,correct
+c2_web_r2,C2,web,CBC+HMAC,CBC+HMAC,1.0,False,14,True,correct
+c2_web_r3,C2,web,CBC+HMAC,CBC+HMAC,1.0,False,14,True,correct
+c2_web_r4,C2,web,CBC+HMAC,CBC+HMAC,1.0,False,14,True,correct
+c3_email_r1,C3,email,AEAD (GCM),AEAD (GCM),1.0,False,67,True,correct
+c3_email_r2,C3,email,AEAD (GCM),AEAD (GCM),1.0,False,60,True,correct
+c3_email_r3,C3,email,AEAD (GCM),AEAD (GCM),1.0,False,39,True,correct
+c3_email_r4,C3,email,AEAD (GCM),AEAD (GCM),1.0,False,53,True,correct
+c3_ping_r1,C3,ping,AEAD (GCM),AEAD (GCM),1.0,False,83,True,correct
+c3_ping_r2,C3,ping,AEAD (GCM),AEAD (GCM),1.0,False,91,True,correct
+c3_ping_r3,C3,ping,AEAD (GCM),AEAD (GCM),1.0,False,91,True,correct
+c3_ping_r4,C3,ping,AEAD (GCM),AEAD (GCM),1.0,False,87,True,correct
+c3_video_r1,C3,video,AEAD (GCM),AEAD (GCM),1.0,False,40,True,correct
+c3_video_r2,C3,video,AEAD (GCM),AEAD (GCM),1.0,False,37,True,correct
+c3_video_r3,C3,video,AEAD (GCM),AEAD (GCM),1.0,False,34,True,correct
+c3_video_r4,C3,video,AEAD (GCM),AEAD (GCM),1.0,False,35,True,correct
+c3_voip_r1,C3,voip,AEAD (GCM),CBC+HMAC or AEAD (GCM) (not separable),0.5,True,2,True,group_correct
+c3_voip_r2,C3,voip,AEAD (GCM),AEAD (GCM),0.6,True,3,True,correct_low_conf
+c3_voip_r3,C3,voip,AEAD (GCM),AEAD (GCM),0.6,True,3,True,correct_low_conf
+c3_voip_r4,C3,voip,AEAD (GCM),AEAD (GCM),0.6,True,3,True,correct_low_conf
+c3_web_r1,C3,web,AEAD (GCM),AEAD (GCM),1.0,False,18,True,correct
+c3_web_r2,C3,web,AEAD (GCM),AEAD (GCM),1.0,False,18,True,correct
+c3_web_r3,C3,web,AEAD (GCM),AEAD (GCM),1.0,False,18,True,correct
+c3_web_r4,C3,web,AEAD (GCM),AEAD (GCM),1.0,False,18,True,correct
+c4_email_r1,C4,email,AEAD (GCM),AEAD (GCM),1.0,False,67,True,correct
+c4_email_r2,C4,email,AEAD (GCM),AEAD (GCM),1.0,False,61,True,correct
+c4_email_r3,C4,email,AEAD (GCM),AEAD (GCM),1.0,False,39,True,correct
+c4_email_r4,C4,email,AEAD (GCM),AEAD (GCM),1.0,False,53,True,correct
+c4_ping_r1,C4,ping,AEAD (GCM),AEAD (GCM),1.0,False,84,True,correct
+c4_ping_r2,C4,ping,AEAD (GCM),AEAD (GCM),1.0,False,107,True,correct
+c4_ping_r3,C4,ping,AEAD (GCM),AEAD (GCM),1.0,False,96,True,correct
+c4_ping_r4,C4,ping,AEAD (GCM),AEAD (GCM),1.0,False,86,True,correct
+c4_video_r1,C4,video,AEAD (GCM),AEAD (GCM),1.0,False,36,True,correct
+c4_video_r2,C4,video,AEAD (GCM),AEAD (GCM),1.0,False,37,True,correct
+c4_video_r3,C4,video,AEAD (GCM),AEAD (GCM),1.0,False,34,True,correct
+c4_video_r4,C4,video,AEAD (GCM),AEAD (GCM),1.0,False,35,True,correct
+c4_voip_r1,C4,voip,AEAD (GCM),CBC+HMAC or AEAD (GCM) (not separable),0.5,True,2,True,group_correct
+c4_voip_r2,C4,voip,AEAD (GCM),AEAD (GCM),0.6,True,3,True,correct_low_conf
+c4_voip_r3,C4,voip,AEAD (GCM),AEAD (GCM),0.6,True,3,True,correct_low_conf
+c4_voip_r4,C4,voip,AEAD (GCM),AEAD (GCM),0.6,True,3,True,correct_low_conf
+c4_web_r1,C4,web,AEAD (GCM),AEAD (GCM),1.0,False,22,True,correct
+c4_web_r2,C4,web,AEAD (GCM),AEAD (GCM),1.0,False,18,True,correct
+c4_web_r3,C4,web,AEAD (GCM),AEAD (GCM),1.0,False,18,True,correct
+c4_web_r4,C4,web,AEAD (GCM),AEAD (GCM),1.0,False,18,True,correct
+c5_email_r1,C5,email,CBC+HMAC,CBC+HMAC,1.0,False,48,True,correct
+c5_email_r2,C5,email,CBC+HMAC,CBC+HMAC,1.0,False,44,True,correct
+c5_email_r3,C5,email,CBC+HMAC,CBC+HMAC,1.0,False,29,True,correct
+c5_email_r4,C5,email,CBC+HMAC,CBC+HMAC,1.0,False,40,True,correct
+c5_ping_r1,C5,ping,CBC+HMAC,CBC+HMAC,1.0,False,56,True,correct
+c5_ping_r2,C5,ping,CBC+HMAC,CBC+HMAC,1.0,False,63,True,correct
+c5_ping_r3,C5,ping,CBC+HMAC,CBC+HMAC,1.0,False,60,True,correct
+c5_ping_r4,C5,ping,CBC+HMAC,CBC+HMAC,1.0,False,50,True,correct
+c5_video_r1,C5,video,CBC+HMAC,CBC+HMAC,1.0,False,47,True,correct
+c5_video_r2,C5,video,CBC+HMAC,CBC+HMAC,1.0,False,32,True,correct
+c5_video_r3,C5,video,CBC+HMAC,CBC+HMAC,1.0,False,26,True,correct
+c5_video_r4,C5,video,CBC+HMAC,CBC+HMAC,1.0,False,27,True,correct
+c5_voip_r1,C5,voip,CBC+HMAC,CBC+HMAC or AEAD (GCM) (not separable),0.5,True,2,True,group_correct
+c5_voip_r2,C5,voip,CBC+HMAC,CBC+HMAC or AEAD (GCM) (not separable),0.5,True,3,True,group_correct
+c5_voip_r3,C5,voip,CBC+HMAC,CBC+HMAC or AEAD (GCM) (not separable),0.5,True,3,True,group_correct
+c5_voip_r4,C5,voip,CBC+HMAC,CBC+HMAC or AEAD (GCM) (not separable),0.5,True,3,True,group_correct
+c5_web_r1,C5,web,CBC+HMAC,CBC+HMAC,1.0,False,31,True,correct
+c5_web_r2,C5,web,CBC+HMAC,CBC+HMAC,1.0,False,13,True,correct
+c5_web_r3,C5,web,CBC+HMAC,CBC+HMAC,1.0,False,13,True,correct
+c5_web_r4,C5,web,CBC+HMAC,CBC+HMAC,1.0,False,13,True,correct
+c6_email_r1,C6,email,AEAD (GCM),AEAD (GCM),1.0,False,67,True,correct
+c6_email_r2,C6,email,AEAD (GCM),AEAD (GCM),1.0,False,62,True,correct
+c6_email_r3,C6,email,AEAD (GCM),AEAD (GCM),1.0,False,39,True,correct
+c6_email_r4,C6,email,AEAD (GCM),AEAD (GCM),1.0,False,54,True,correct
+c6_ping_r1,C6,ping,AEAD (GCM),AEAD (GCM),1.0,False,79,True,correct
+c6_ping_r2,C6,ping,AEAD (GCM),AEAD (GCM),1.0,False,107,True,correct
+c6_ping_r3,C6,ping,AEAD (GCM),AEAD (GCM),1.0,False,95,True,correct
+c6_ping_r4,C6,ping,AEAD (GCM),AEAD (GCM),1.0,False,79,True,correct
+c6_video_r1,C6,video,AEAD (GCM),AEAD (GCM),1.0,False,59,True,correct
+c6_video_r2,C6,video,AEAD (GCM),AEAD (GCM),1.0,False,37,True,correct
+c6_video_r3,C6,video,AEAD (GCM),AEAD (GCM),1.0,False,36,True,correct
+c6_video_r4,C6,video,AEAD (GCM),AEAD (GCM),1.0,False,36,True,correct
+c6_voip_r1,C6,voip,AEAD (GCM),CBC+HMAC or AEAD (GCM) (not separable),0.5,True,2,True,group_correct
+c6_voip_r2,C6,voip,AEAD (GCM),AEAD (GCM),0.6,True,3,True,correct_low_conf
+c6_voip_r3,C6,voip,AEAD (GCM),AEAD (GCM),0.6,True,3,True,correct_low_conf
+c6_voip_r4,C6,voip,AEAD (GCM),AEAD (GCM),0.6,True,3,True,correct_low_conf
+c6_web_r1,C6,web,AEAD (GCM),AEAD (GCM),1.0,False,36,True,correct
+c6_web_r2,C6,web,AEAD (GCM),AEAD (GCM),1.0,False,18,True,correct
+c6_web_r3,C6,web,AEAD (GCM),AEAD (GCM),1.0,False,18,True,correct
+c6_web_r4,C6,web,AEAD (GCM),AEAD (GCM),1.0,False,18,True,correct
+c7_email_r1,C7,email,CBC+HMAC,CBC+HMAC,1.0,False,48,True,correct
+c7_email_r2,C7,email,CBC+HMAC,CBC+HMAC,1.0,False,43,True,correct
+c7_email_r3,C7,email,CBC+HMAC,CBC+HMAC,1.0,False,29,True,correct
+c7_email_r4,C7,email,CBC+HMAC,CBC+HMAC,1.0,False,40,True,correct
+c7_ping_r1,C7,ping,CBC+HMAC,CBC+HMAC,1.0,False,57,True,correct
+c7_ping_r2,C7,ping,CBC+HMAC,CBC+HMAC,1.0,False,54,True,correct
+c7_ping_r3,C7,ping,CBC+HMAC,CBC+HMAC,1.0,False,55,True,correct
+c7_ping_r4,C7,ping,CBC+HMAC,CBC+HMAC,1.0,False,59,True,correct
+c7_video_r1,C7,video,CBC+HMAC,CBC+HMAC,1.0,False,41,True,correct
+c7_video_r2,C7,video,CBC+HMAC,CBC+HMAC,1.0,False,32,True,correct
+c7_video_r3,C7,video,CBC+HMAC,CBC+HMAC,1.0,False,26,True,correct
+c7_video_r4,C7,video,CBC+HMAC,CBC+HMAC,1.0,False,27,True,correct
+c7_voip_r1,C7,voip,CBC+HMAC,CBC+HMAC or AEAD (GCM) (not separable),0.5,True,2,True,group_correct
+c7_voip_r2,C7,voip,CBC+HMAC,CBC+HMAC or AEAD (GCM) (not separable),0.5,True,3,True,group_correct
+c7_voip_r3,C7,voip,CBC+HMAC,CBC+HMAC or AEAD (GCM) (not separable),0.5,True,3,True,group_correct
+c7_voip_r4,C7,voip,CBC+HMAC,CBC+HMAC or AEAD (GCM) (not separable),0.5,True,3,True,group_correct
+c7_web_r1,C7,web,CBC+HMAC,CBC+HMAC,1.0,False,22,True,correct
+c7_web_r2,C7,web,CBC+HMAC,CBC+HMAC,1.0,False,13,True,correct
+c7_web_r3,C7,web,CBC+HMAC,CBC+HMAC,1.0,False,13,True,correct
+c7_web_r4,C7,web,CBC+HMAC,CBC+HMAC,1.0,False,13,True,correct
+c8_email_r1,C8,email,AEAD (GCM),AEAD (GCM),1.0,False,68,True,correct
+c8_email_r2,C8,email,AEAD (GCM),AEAD (GCM),1.0,False,62,True,correct
+c8_email_r3,C8,email,AEAD (GCM),AEAD (GCM),1.0,False,39,True,correct
+c8_email_r4,C8,email,AEAD (GCM),AEAD (GCM),1.0,False,55,True,correct
+c8_ping_r1,C8,ping,AEAD (GCM),AEAD (GCM),1.0,False,103,True,correct
+c8_ping_r2,C8,ping,AEAD (GCM),AEAD (GCM),1.0,False,99,True,correct
+c8_ping_r3,C8,ping,AEAD (GCM),AEAD (GCM),1.0,False,93,True,correct
+c8_ping_r4,C8,ping,AEAD (GCM),AEAD (GCM),1.0,False,82,True,correct
+c8_video_r1,C8,video,AEAD (GCM),AEAD (GCM),1.0,False,53,True,correct
+c8_video_r2,C8,video,AEAD (GCM),AEAD (GCM),1.0,False,37,True,correct
+c8_video_r3,C8,video,AEAD (GCM),AEAD (GCM),1.0,False,34,True,correct
+c8_video_r4,C8,video,AEAD (GCM),AEAD (GCM),1.0,False,36,True,correct
+c8_voip_r1,C8,voip,AEAD (GCM),CBC+HMAC or AEAD (GCM) (not separable),0.5,True,2,True,group_correct
+c8_voip_r2,C8,voip,AEAD (GCM),AEAD (GCM),0.6,True,3,True,correct_low_conf
+c8_voip_r3,C8,voip,AEAD (GCM),AEAD (GCM),0.6,True,3,True,correct_low_conf
+c8_voip_r4,C8,voip,AEAD (GCM),AEAD (GCM),0.6,True,3,True,correct_low_conf
+c8_web_r1,C8,web,AEAD (GCM),AEAD (GCM),1.0,False,37,True,correct
+c8_web_r2,C8,web,AEAD (GCM),AEAD (GCM),1.0,False,18,True,correct
+c8_web_r3,C8,web,AEAD (GCM),AEAD (GCM),1.0,False,18,True,correct
+c8_web_r4,C8,web,AEAD (GCM),AEAD (GCM),1.0,False,18,True,correct
